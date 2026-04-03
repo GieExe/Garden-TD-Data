@@ -36,7 +36,7 @@ def get_tower_links(scraper):
     # Extract all links that point to specific wiki pages
     for a in content.find_all('a', href=True):
         href = a['href']
-        # Filter: Must be a wiki link, exclude special pages (containing ':'), exclude the Towers page itself
+        # Filter: Must be a wiki link, exclude special pages, exclude the Towers page itself
         if href.startswith('/wiki/') and ':' not in href and href != '/wiki/Towers':
             full_url = BASE_URL + href
             # Grab the title attribute, or fall back to formatting the URL string
@@ -63,7 +63,6 @@ def parse_tower(scraper, tower):
             return None
             
         # 2. Target the Stat Rows
-        # Fandom standardly uses 'pi-data' or 'pi-item' for data rows
         stat_rows = infobox.find_all(class_='pi-data')
         
         if not stat_rows:
@@ -85,8 +84,21 @@ def parse_tower(scraper, tower):
             value_element = row.find(class_='pi-data-value')
             
             if label_element and value_element:
-                # get_text(strip=True) removes annoying whitespace and newline formatting
                 label = label_element.get_text(strip=True)
+                
+                # --- ICON DETECTION LOGIC ---
+                # Look for images inside the value element to modify the label appropriately
+                images = value_element.find_all('img')
+                for img in images:
+                    # Fandom uses 'alt' or 'data-image-name' for the filename
+                    img_identifier = img.get('data-image-name', '') + img.get('alt', '')
+                    
+                    if 'RangeIcon' in img_identifier:
+                        label = "Range (Single Target)"
+                    elif 'RadiusIcon' in img_identifier:
+                        label = "Range (AOE Size)"
+                # ----------------------------
+
                 value = value_element.get_text(separator=' ', strip=True)
                 tower_data["stats"][label] = value
                 
@@ -117,7 +129,7 @@ def main():
             time.sleep(1.5) 
             
     except KeyboardInterrupt:
-        # This catches your Ctrl+C and allows the script to finish gracefully!
+        # This catches your Ctrl+C and allows the script to finish gracefully
         print("\n\nScraping interrupted by user. Initiating safe shutdown...")
     
     finally:
