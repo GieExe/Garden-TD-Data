@@ -181,11 +181,12 @@
     <h1>Gravity Tower Defense</h1>
     
     <div class="controls-container">
-        <input type="text" id="search-input" placeholder="Search towers by name...">
+        <input type="text" id="search-input" placeholder="Search towers...">
         <select id="sort-filter">
             <option value="default">Sort: Default</option>
-            <option value="dps-desc">Sort: Highest DPS (Tier List)</option>
-            <option value="cost-asc">Sort: Best Starter (Lowest Cost)</option>
+            <option value="dps-desc">Sort: Highest Max DPS</option>
+            <option value="tier-desc">Sort: Highest Tier Score (Factors AOE)</option>
+            <option value="cost-asc">Sort: Lowest Placement Cost</option>
         </select>
         <select id="tier-filter">
             <option value="All">All Tiers</option>
@@ -214,51 +215,67 @@
             return (s || '').toString().trim().toLowerCase().replace(/[^a-z0-9\\-]/g, '-');
         }
 
-        // Extracts the clean MAX DPS from strings like "128 → 4800 x1 - x2 Burst"
-        function parseDpsValue(str) {
-            if (!str || str === "N/A") return 0;
+        // Strips out "x1 - x2 Burst" modifiers and returns ONLY "number ⟶ number"
+        function extractCleanRange(str) {
+            if (!str || typeof str !== 'string' || str === "N/A") return str;
             
-            // Looks for pattern: [number] -> [number] and extracts the second number
-            const match = str.match(/([\\d.]+)\\s*(?:⟶|→|->)\\s*([\\d.]+)/);
+            // Look for [number] -> [number]
+            const match = str.match(/([\\d.,]+)\\s*(?:⟶|→|->|⟷)\\s*([\\d.,]+)/);
             if (match) {
-                return parseFloat(match[2]); // Returns only the max DPS (e.g. 4800)
+                return `${match[1]} ⟶ ${match[2]}`;
             }
             
-            // Fallback: If no arrow, just find the first number in the string
-            const singleMatch = str.match(/[\\d.]+/);
-            if (singleMatch) {
-                return parseFloat(singleMatch[0]);
+            // Fallback: match just the first number
+            const single = str.match(/[\\d.,]+/);
+            if (single) {
+                return single[0];
             }
+            
+            return str;
+        }
+
+        function parseMaxValueFromCleanString(str) {
+            if (!str || str === "N/A") return 0;
+            const cleanStr = str.replace(/,/g, ''); // remove commas
+            // Extract the right-side number from "A ⟶ B"
+            const match = cleanStr.match(/[\\d.]+\\s*(?:⟶|→|->|⟷)\\s*([\\d.]+)/);
+            if (match) return parseFloat(match[1]) || 0;
+            
+            const singleMatch = cleanStr.match(/[\\d.]+/);
+            if (singleMatch) return parseFloat(singleMatch[0]) || 0;
             return 0;
         }
 
-        // Extracts cost, ignoring commas like "1,000"
         function parseCostValue(str) {
-            if (!str || str === "N/A") return Infinity; // Push unknown costs to the bottom
+            if (!str || typeof str !== 'string' || str === "N/A") return Infinity;
             const cleanStr = str.replace(/,/g, '');
             const match = cleanStr.match(/[\\d.]+/);
-            if (match) return parseFloat(match[0]);
+            if (match) return parseFloat(match[0]) || Infinity;
             return Infinity;
         }
 
-        // Pre-process Data to assign numerical values for Sorting and Tiers
+        // Pre-process Data
         function processTowerStats(towers) {
             towers.forEach(unit => {
                 const stats = unit.stats || {};
                 
-                // Parse clean numbers
-                unit._maxDps = parseDpsValue(stats["DPS"]);
+                // 1. Generate clean strings without text modifiers for display
+                unit._cleanDps = extractCleanRange(stats["DPS"]);
+                unit._cleanDamage = extractCleanRange(stats["Damage"]);
+
+                // 2. Parse the numerical max value for sorting
+                unit._maxDps = parseMaxValueFromCleanString(unit._cleanDps);
                 unit._cost = parseCostValue(stats["Placement Cost"]);
 
                 // Check Obtainability
                 let obv = stats["Currently Obtainable?"] || "";
                 unit._isObtainable = obv.toLowerCase().includes("yes");
 
-                // Evaluate AOE vs Single Target. AOE units get a strong priority multiplier (1.5x) for Tiering.
+                // Determine Tier Score (AOE gets a 1.5x multiplier in the score)
                 unit._isAoe = !!stats["Range (AOE Size)"];
                 unit._effectiveScore = unit._maxDps * (unit._isAoe ? 1.5 : 1.0);
 
-                // Assign Tiers based on computed effective score
+                // Assign Badges
                 if (unit._effectiveScore >= 4000) unit._tier = "S";
                 else if (unit._effectiveScore >= 1500) unit._tier = "A";
                 else if (unit._effectiveScore >= 500) unit._tier = "B";
@@ -276,7 +293,7 @@
                 
                 processTowerStats(allTowers);
                 populateRarityDropdown();
-                applyFilters(); // Initial render
+                applyFilters(); 
             } catch (err) {
                 console.error('Error loading data:', err);
                 document.getElementById('database-grid').innerHTML = 
@@ -325,10 +342,13 @@
 
                 const stats = unit.stats || {};
                 for (const [label, value] of Object.entries(stats)) {
-                    // Skip sounds and internal stats
                     if (label === 'Sound Attack' || value === '') continue;
 
                     let finalValue = (value == null || value === '') ? '—' : value;
+                    
+                    // Override DPS and Damage with the clean, stripped versions
+                    if (label === 'DPS' && unit._cleanDps) finalValue = unit._cleanDps;
+                    if (label === 'Damage' && unit._cleanDamage) finalValue = unit._cleanDamage;
                     
                     if (label === 'Rarity') {
                         const cls = sanitizeClassName(finalValue);
@@ -370,9 +390,11 @@
 
             // 2. Sort
             if (selectedSort === 'dps-desc') {
-                filteredTowers.sort((a, b) => b._effectiveScore - a._effectiveScore);
+                filteredTowers.sort((a, b) => b._maxDps - a._maxDps);
+            } else if (selectedSort === 'tier-desc') {
+                filteredTowers.sort((a, b) => b._effectiveScore - a._effectiveScore); 
             } else if (selectedSort === 'cost-asc') {
-                filteredTowers.sort((a, b) => a._cost - b._cost);
+                filteredTowers.sort((a, b) => a._cost - b._cost); 
             }
 
             // 3. Render
