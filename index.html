@@ -12,6 +12,7 @@
             --primary: #6b8e23;
             --secondary: #a2d149;
             --border: #32324e;
+            --input-bg: #2a2a3f;
         }
 
         body { 
@@ -25,36 +26,60 @@
         h1 { 
             text-align: center; 
             color: var(--secondary); 
-            margin-bottom: 10px;
+            margin-bottom: 25px;
             font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
 
         /* Filter Controls */
         .controls-container {
-            display: flex;
-            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 15px;
-            margin-bottom: 30px;
-            flex-wrap: wrap;
-            max-width: 1000px;
-            margin-left: auto;
-            margin-right: auto;
+            max-width: 1300px;
+            margin: 0 auto 40px auto;
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .filter-group label {
+            font-size: 12px;
+            font-weight: bold;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         input[type="text"], select {
-            padding: 12px 20px;
+            padding: 12px 15px;
             border-radius: 8px;
             border: 1px solid var(--border);
-            background-color: var(--card-bg);
+            background-color: var(--input-bg);
             color: var(--text-color);
             font-size: 14px;
             outline: none;
-            transition: border-color 0.3s;
-            flex: 1 1 180px;
+            transition: all 0.3s;
+            width: 100%;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        input[type="text"] {
+            cursor: text;
         }
 
         input[type="text"]:focus, select:focus {
             border-color: var(--secondary);
+            box-shadow: 0 0 0 2px rgba(162, 209, 73, 0.2);
         }
 
         /* The Grid Container */
@@ -86,10 +111,10 @@
         }
 
         .card-header { 
-            background-color: rgba(0,0,0,0.3); 
-            text-align: center; 
-            padding: 15px; 
-            font-size: 22px; 
+            background-color: rgba(0,0,0,0.4); 
+            text-align: left; 
+            padding: 20px 15px; 
+            font-size: 20px; 
             font-weight: bold; 
             border-bottom: 1px solid var(--border);
             position: relative;
@@ -107,12 +132,13 @@
         
         .tier-badge {
             position: absolute;
-            top: 15px;
+            top: 20px;
             right: 15px;
-            padding: 4px 8px;
+            padding: 4px 10px;
             border-radius: 4px;
             font-weight: 900;
-            font-size: 14px;
+            font-size: 13px;
+            text-transform: uppercase;
             box-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
 
@@ -126,7 +152,7 @@
             display: flex; 
             justify-content: space-between; 
             padding: 12px 15px; 
-            border-bottom: 1px solid rgba(255,255,255,0.05); 
+            border-bottom: 1px solid rgba(255,255,255,0.03); 
             font-size: 14px; 
             align-items: center;
         }
@@ -138,13 +164,15 @@
         .stat-label { 
             font-weight: 600; 
             color: #9aa0a6;
-            max-width: 40%;
+            max-width: 45%;
         }
 
         .stat-value {
             text-align: right;
-            max-width: 55%;
+            max-width: 50%;
             word-wrap: break-word;
+            font-family: monospace;
+            font-size: 14px;
         }
 
         /* Rarity Badges */
@@ -152,7 +180,8 @@
             padding: 5px 10px; 
             border-radius: 6px; 
             font-weight: bold; 
-            font-size: 12px; 
+            font-size: 11px; 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
@@ -178,32 +207,63 @@
 </head>
 <body>
 
-    <h1>Gravity Tower Defense</h1>
+    <h1>GTD Database</h1>
     
     <div class="controls-container">
-        <input type="text" id="search-input" placeholder="Search towers...">
-        <select id="sort-filter">
-            <option value="default">Sort: Default</option>
-            <option value="dps-desc">Sort: Highest Max DPS</option>
-            <option value="tier-desc">Sort: Highest Tier Score (Factors AOE)</option>
-            <option value="cost-asc">Sort: Lowest Placement Cost</option>
-        </select>
-        <select id="tier-filter">
-            <option value="All">All Tiers</option>
-            <option value="S">S Tier</option>
-            <option value="A">A Tier</option>
-            <option value="B">B Tier</option>
-            <option value="C">C Tier</option>
-            <option value="D">D Tier</option>
-        </select>
-        <select id="obtainable-filter">
-            <option value="All">Availability: All</option>
-            <option value="yes">Obtainable Only</option>
-            <option value="no">Unobtainable Only</option>
-        </select>
-        <select id="rarity-filter">
-            <option value="All">All Rarities</option>
-        </select>
+        <div class="filter-group">
+            <label>Search Towers</label>
+            <input type="text" id="search-input" placeholder="Type a name...">
+        </div>
+
+        <div class="filter-group">
+            <label>Sort By</label>
+            <select id="sort-filter">
+                <option value="default">Default</option>
+                <option value="dps-desc">Highest DPS (High to Low)</option>
+                <option value="dps-asc">Lowest DPS (Low to High)</option>
+                <option value="tier-desc">Tier Score (High to Low)</option>
+                <option value="tier-asc">Tier Score (Low to High)</option>
+                <option value="cost-desc">Placement Cost (High to Low)</option>
+                <option value="cost-asc">Placement Cost (Low to High)</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label>Tier</label>
+            <select id="tier-filter">
+                <option value="All">All Tiers</option>
+                <option value="S">S Tier</option>
+                <option value="A">A Tier</option>
+                <option value="B">B Tier</option>
+                <option value="C">C Tier</option>
+                <option value="D">D Tier</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label>Availability</label>
+            <select id="obtainable-filter">
+                <option value="All">All Statuses</option>
+                <option value="yes">Obtainable Only</option>
+                <option value="no">Unobtainable Only</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label>Attack Type</label>
+            <select id="attack-filter">
+                <option value="All">All Attack Types</option>
+                <option value="aoe">Area of Effect (AOE)</option>
+                <option value="single">Single Target</option>
+            </select>
+        </div>
+
+        <div class="filter-group">
+            <label>Rarity</label>
+            <select id="rarity-filter">
+                <option value="All">All Rarities</option>
+            </select>
+        </div>
     </div>
 
     <div id="database-grid">Loading tower data...</div>
@@ -215,67 +275,71 @@
             return (s || '').toString().trim().toLowerCase().replace(/[^a-z0-9\\-]/g, '-');
         }
 
-        // Strips out "x1 - x2 Burst" modifiers and returns ONLY "number ⟶ number"
+        // Extracts completely clean "[number] -> [number]" layout for display
         function extractCleanRange(str) {
             if (!str || typeof str !== 'string' || str === "N/A") return str;
-            
-            // Look for [number] -> [number]
-            const match = str.match(/([\\d.,]+)\\s*(?:⟶|→|->|⟷)\\s*([\\d.,]+)/);
+            // Match pure numbers and arrows, strip out "Burst", "%", "x4", etc.
+            const match = str.match(/([\d.,]+)\s*(?:⟶|→|->|⟷)\s*([\d.,]+)/);
             if (match) {
                 return `${match[1]} ⟶ ${match[2]}`;
             }
-            
-            // Fallback: match just the first number
-            const single = str.match(/[\\d.,]+/);
+            const single = str.match(/[\d.,]+/);
             if (single) {
                 return single[0];
             }
-            
             return str;
         }
 
-        function parseMaxValueFromCleanString(str) {
-            if (!str || str === "N/A") return 0;
-            const cleanStr = str.replace(/,/g, ''); // remove commas
-            // Extract the right-side number from "A ⟶ B"
-            const match = cleanStr.match(/[\\d.]+\\s*(?:⟶|→|->|⟷)\\s*([\\d.]+)/);
-            if (match) return parseFloat(match[1]) || 0;
-            
-            const singleMatch = cleanStr.match(/[\\d.]+/);
-            if (singleMatch) return parseFloat(singleMatch[0]) || 0;
+        // Extracts strictly the numerical Max value for Sorting engines
+        function parseDpsValue(str) {
+            if (!str || typeof str !== 'string' || str.includes("N/A")) return 0;
+            const cleanStr = str.replace(/,/g, ''); 
+            // Attempt to grab the max out of the "A -> B" pattern
+            const match = cleanStr.match(/[\d.]+\s*(?:⟶|→|->|⟷)\s*([\d.]+)/);
+            if (match) {
+                return parseFloat(match[1]) || 0;
+            }
+            // If no arrow, grab the first standalone number
+            const single = cleanStr.match(/[\d.]+/);
+            if (single) {
+                return parseFloat(single[0]) || 0;
+            }
             return 0;
         }
 
+        // Extracts Cost (assigns Infinity to un-purchasable/unknown towers)
         function parseCostValue(str) {
-            if (!str || typeof str !== 'string' || str === "N/A") return Infinity;
+            if (!str || typeof str !== 'string' || str.includes("N/A")) return Infinity; 
             const cleanStr = str.replace(/,/g, '');
-            const match = cleanStr.match(/[\\d.]+/);
+            const match = cleanStr.match(/[\d.]+/);
             if (match) return parseFloat(match[0]) || Infinity;
             return Infinity;
         }
 
-        // Pre-process Data
+        // Process data array to inject internal sorting variables
         function processTowerStats(towers) {
             towers.forEach(unit => {
                 const stats = unit.stats || {};
                 
-                // 1. Generate clean strings without text modifiers for display
+                // Pure clean text formatting
                 unit._cleanDps = extractCleanRange(stats["DPS"]);
                 unit._cleanDamage = extractCleanRange(stats["Damage"]);
 
-                // 2. Parse the numerical max value for sorting
-                unit._maxDps = parseMaxValueFromCleanString(unit._cleanDps);
+                // Variables strictly used for behind-the-scenes sorting math
+                unit._maxDps = parseDpsValue(stats["DPS"]);
                 unit._cost = parseCostValue(stats["Placement Cost"]);
 
-                // Check Obtainability
+                // Obtainability Boolean
                 let obv = stats["Currently Obtainable?"] || "";
                 unit._isObtainable = obv.toLowerCase().includes("yes");
 
-                // Determine Tier Score (AOE gets a 1.5x multiplier in the score)
+                // AOE Boolean Check
                 unit._isAoe = !!stats["Range (AOE Size)"];
+
+                // Score Calculation (AOE gets a 1.5x multiplier)
                 unit._effectiveScore = unit._maxDps * (unit._isAoe ? 1.5 : 1.0);
 
-                // Assign Badges
+                // Badges
                 if (unit._effectiveScore >= 4000) unit._tier = "S";
                 else if (unit._effectiveScore >= 1500) unit._tier = "A";
                 else if (unit._effectiveScore >= 500) unit._tier = "B";
@@ -346,7 +410,7 @@
 
                     let finalValue = (value == null || value === '') ? '—' : value;
                     
-                    // Override DPS and Damage with the clean, stripped versions
+                    // Enforce the visual overriding of text 
                     if (label === 'DPS' && unit._cleanDps) finalValue = unit._cleanDps;
                     if (label === 'Damage' && unit._cleanDamage) finalValue = unit._cleanDamage;
                     
@@ -373,11 +437,13 @@
             const selectedSort = document.getElementById('sort-filter').value;
             const selectedTier = document.getElementById('tier-filter').value;
             const selectedObtainable = document.getElementById('obtainable-filter').value;
+            const selectedAttack = document.getElementById('attack-filter').value;
 
-            // 1. Filter
+            // 1. FILTERING
             let filteredTowers = allTowers.filter(unit => {
                 const matchesSearch = unit.name.toLowerCase().includes(searchTerm);
                 const unitRarity = (unit.stats && unit.stats.Rarity) ? unit.stats.Rarity.trim() : '';
+                
                 const matchesRarity = (selectedRarity === 'All' || unitRarity === selectedRarity);
                 const matchesTier = (selectedTier === 'All' || unit._tier === selectedTier);
                 
@@ -385,26 +451,57 @@
                 if (selectedObtainable === 'yes') matchesObtainable = unit._isObtainable;
                 if (selectedObtainable === 'no') matchesObtainable = !unit._isObtainable;
 
-                return matchesSearch && matchesRarity && matchesTier && matchesObtainable;
+                let matchesAttack = true;
+                if (selectedAttack === 'aoe') matchesAttack = unit._isAoe;
+                if (selectedAttack === 'single') matchesAttack = !unit._isAoe;
+
+                return matchesSearch && matchesRarity && matchesTier && matchesObtainable && matchesAttack;
             });
 
-            // 2. Sort
-            if (selectedSort === 'dps-desc') {
-                filteredTowers.sort((a, b) => b._maxDps - a._maxDps);
-            } else if (selectedSort === 'tier-desc') {
-                filteredTowers.sort((a, b) => b._effectiveScore - a._effectiveScore); 
-            } else if (selectedSort === 'cost-asc') {
-                filteredTowers.sort((a, b) => a._cost - b._cost); 
-            }
+            // 2. SORTING ENGINE
+            filteredTowers.sort((a, b) => {
+                let valA, valB;
 
-            // 3. Render
+                // Bind attributes based on sort select
+                if (selectedSort.startsWith('dps')) {
+                    valA = a._maxDps;
+                    valB = b._maxDps;
+                } 
+                else if (selectedSort.startsWith('tier')) {
+                    valA = a._effectiveScore;
+                    valB = b._effectiveScore;
+                } 
+                else if (selectedSort.startsWith('cost')) {
+                    valA = a._cost;
+                    valB = b._cost;
+                    
+                    // Rules to force 'N/A' to the BOTTOM no matter what direction you sort.
+                    if (valA === Infinity && valB !== Infinity) return 1;
+                    if (valB === Infinity && valA !== Infinity) return -1;
+                    if (valA === Infinity && valB === Infinity) return 0;
+                } 
+                else {
+                    return 0; // default state
+                }
+
+                // Check direction
+                if (selectedSort.endsWith('desc')) {
+                    return valB - valA; // High to Low
+                } else {
+                    return valA - valB; // Low to High
+                }
+            });
+
+            // 3. RENDER
             renderGrid(filteredTowers);
         }
 
+        // Attach listeners
         document.getElementById('search-input').addEventListener('input', applyFilters);
         document.getElementById('sort-filter').addEventListener('change', applyFilters);
         document.getElementById('tier-filter').addEventListener('change', applyFilters);
         document.getElementById('obtainable-filter').addEventListener('change', applyFilters);
+        document.getElementById('attack-filter').addEventListener('change', applyFilters);
         document.getElementById('rarity-filter').addEventListener('change', applyFilters);
 
         init();
