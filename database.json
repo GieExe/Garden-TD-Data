@@ -1,0 +1,3720 @@
+[
+    {
+        "name": "Tomato Plant",
+        "url": "https://gtd.fandom.com/wiki/Tomato_Plant",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "150",
+            "Placement Limit": "N/A",
+            "Sound Attack": "https://gtd.fandom.com/wiki/File:TomatoPlantAttackSound.wav",
+            "DPS": "3 ⟶ 31",
+            "Damage": "4 ⟶ 40",
+            "Range": "10 ⟶ 19",
+            "Attack Speed": "1.71 ⟶ 1.3"
+        }
+    },
+    {
+        "name": "Cactus",
+        "url": "https://gtd.fandom.com/wiki/Cactus",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "150",
+            "Placement Limit": "N/A",
+            "Sound Attack": "https://gtd.fandom.com/wiki/File:CactusAttackSound.wav",
+            "DPS": "7 ⟶ 72",
+            "Damage": "8 ⟶ 50",
+            "Range": "5 ⟶ 10",
+            "Attack Speed": "1.3 ⟶ 0.71"
+        }
+    },
+    {
+        "name": "Onion",
+        "url": "https://gtd.fandom.com/wiki/Onion",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "150",
+            "Placement Limit": "N/A",
+            "Sound Attack": "https://gtd.fandom.com/wiki/File:OnionAttack.wav",
+            "DPS": "3 ⟶ 50",
+            "Damage": "4 ⟶ 50",
+            "Range": "10 ⟶ 20",
+            "Attack Speed": "1.71 ⟶ 1"
+        }
+    },
+    {
+        "name": "Pomegranate",
+        "url": "https://gtd.fandom.com/wiki/Pomegranate",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "200",
+            "Placement Limit": "N/A",
+            "DPS": "4 ⟶ 80",
+            "Damage": "10 ⟶ 120",
+            "Range": "7 ⟶ 13",
+            "Attack Speed": "3 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Radish",
+        "url": "https://gtd.fandom.com/wiki/Radish",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "200",
+            "Placement Limit": "N/A",
+            "DPS": "6 ⟶ 100",
+            "Damage": "5 ⟶ 30 1x ⟷ 4x Burst",
+            "Range": "5 ⟶ 13",
+            "Attack Speed": "4.00 ⟶ 1.20"
+        }
+    },
+    {
+        "name": "Sawflower",
+        "url": "https://gtd.fandom.com/wiki/Sawflower",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "200",
+            "Placement Limit": "N/A",
+            "DPS": "8 ⟶ 113",
+            "Damage": "2 ⟶ 9 1x ⟷ 5x Burst",
+            "Range": "6 ⟶ 10",
+            "Attack Speed": "1.30 ⟶ 0.40"
+        }
+    },
+    {
+        "name": "Cabbage",
+        "url": "https://gtd.fandom.com/wiki/Cabbage",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "350",
+            "Placement Limit": "N/A",
+            "DPS": "10 ⟶ 220",
+            "Damage": "15 ⟶ 110",
+            "Range": "8 ⟶ 15",
+            "Attack Speed": "1.5 ⟶ 0.5"
+        }
+    },
+    {
+        "name": "Vines",
+        "url": "https://gtd.fandom.com/wiki/Vines",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "5",
+            "Damage": "20 ⟶ 1000 15% ⟶ 15%",
+            "Attack Speed": "1 ⟶ 5"
+        }
+    },
+    {
+        "name": "Lumberjack",
+        "url": "https://gtd.fandom.com/wiki/Lumberjack",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "500",
+            "Placement Limit": "10",
+            "DPS": "25 ⟶ 100",
+            "Damage": "25 ⟶ 60",
+            "Range": "12 ⟶ 26",
+            "Attack Speed": "1.00 ⟶ 0.60"
+        }
+    },
+    {
+        "name": "Slingshot",
+        "url": "https://gtd.fandom.com/wiki/Slingshot",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "200",
+            "Placement Limit": "N/A",
+            "DPS": "4 → 75",
+            "Damage": "5 → 75",
+            "Range": "10 → 37",
+            "Attack Speed": "1.5 → 1"
+        }
+    },
+    {
+        "name": "Cherry Blossom",
+        "url": "https://gtd.fandom.com/wiki/Cherry_Blossom",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "300",
+            "Placement Limit": "10",
+            "DPS": "26 ⟶ 152",
+            "Damage": "16 ⟶ 30 x1 ⟷ x4 Burst",
+            "Range": "10 ⟶ 18",
+            "Attack Speed": "2.5 ⟶ 0.8"
+        }
+    },
+    {
+        "name": "Pine Tree",
+        "url": "https://gtd.fandom.com/wiki/Pine_Tree",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "300",
+            "Placement Limit": "N/A",
+            "DPS": "12 ⟶ 120",
+            "Damage": "12 ⟶ 60 x1 ⟷ x3 Burst",
+            "Range": "10 ⟶ 19",
+            "Attack Speed": "3 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Headless",
+        "url": "https://gtd.fandom.com/wiki/Headless",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "600",
+            "Placement Limit": "3",
+            "DPS": "15 ⟶ 72",
+            "Damage": "2 ⟶ 9 x1 ⟷ x3 Burst 3 ⟶ 15",
+            "Range": "Infinite",
+            "Attack Speed": "1 ⟶ 1",
+            "Ability": "It is a Spawner Tower, meaning it has no range limitation and can target every enemy regardless of distance."
+        }
+    },
+    {
+        "name": "Rootclaw",
+        "url": "https://gtd.fandom.com/wiki/Rootclaw",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "350",
+            "Placement Limit": "10",
+            "DPS": "10 ⟶ 140",
+            "Damage": "5 ⟶ 40 x1 ⟷ x2 Burst",
+            "Range": "6 ⟶15",
+            "Attack Speed": "1 ⟶0,57"
+        }
+    },
+    {
+        "name": "Stunnion",
+        "url": "https://gtd.fandom.com/wiki/Stunnion",
+        "stats": {
+            "Rarity": "Common",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "150",
+            "Placement Limit": "4",
+            "Sound Attack": "https://gtd.fandom.com/wiki/File:Electric_BeetrootSound.mp3",
+            "DPS": "3 → 60",
+            "Damage": "6 → 60",
+            "Range": "8 → 21",
+            "Attack Speed": "2 → 1",
+            "Ability": "⚡His attack can bounce from one enemy to another (up to 3) with half damage and a small stun."
+        }
+    },
+    {
+        "name": "Farmer",
+        "url": "https://gtd.fandom.com/wiki/Farmer",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "200",
+            "Placement Limit": "N/A",
+            "DPS": "8 ⟶ 102",
+            "Damage": "7 ⟶ 49",
+            "Range": "6 ⟶ 10",
+            "Attack Speed": "0.90 ⟶ 0.49"
+        }
+    },
+    {
+        "name": "Strawberry",
+        "url": "https://gtd.fandom.com/wiki/Strawberry",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "200",
+            "Placement Limit": "N/A",
+            "DPS": "3 ⟶ 58",
+            "Damage": "3 ⟶ 40",
+            "Range": "12 ⟶ 21",
+            "Attack Speed": "1.33 ⟶ 0.71"
+        }
+    },
+    {
+        "name": "Gnome",
+        "url": "https://gtd.fandom.com/wiki/Gnome",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "250",
+            "DPS": "9 ⟶ 106",
+            "Damage": "11 ⟶ 60",
+            "Range": "6 ⟶ 11",
+            "Attack Speed": "1.25 ⟶ 0.57"
+        }
+    },
+    {
+        "name": "Eggplant",
+        "url": "https://gtd.fandom.com/wiki/Eggplant",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "300",
+            "Placement Limit": "N/A",
+            "DPS": "13 ⟶ 64",
+            "Damage": "25 ⟶ 100",
+            "Range": "7 ⟶ 14",
+            "Attack Speed": "2.00 ⟶ 1.58"
+        }
+    },
+    {
+        "name": "Pineapple Cannon",
+        "url": "https://gtd.fandom.com/wiki/Pineapple_Cannon",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "400",
+            "Placement Limit": "N/A",
+            "DPS": "4 ⟶ 60",
+            "Damage": "7 ⟶ 60",
+            "Range": "8 ⟶ 16",
+            "Attack Speed": "2.00 ⟶ 1.00"
+        }
+    },
+    {
+        "name": "Potato",
+        "url": "https://gtd.fandom.com/wiki/Potato",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "300",
+            "Placement Limit": "N/A",
+            "DPS": "7 ⟶ 139",
+            "Damage": "4 ⟶ 40",
+            "Range": "7 ⟶ 13",
+            "Attack Speed": "1.30 ⟶ 0.58"
+        }
+    },
+    {
+        "name": "Aloe Vera",
+        "url": "https://gtd.fandom.com/wiki/Aloe_Vera",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "400",
+            "DPS": "15 ⟶ 127",
+            "Damage": "30 ⟶ 200",
+            "Range": "5 ⟶ 15",
+            "Attack Speed": "2.00 ⟶ 1.62"
+        }
+    },
+    {
+        "name": "Dragon Fruit",
+        "url": "https://gtd.fandom.com/wiki/Dragon_Fruit",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "600",
+            "Placement Limit": "5",
+            "DPS": "20 ⟶ 187",
+            "Damage": "20 ⟶ 60 x1 ⟷ x4 10 ⟶ 10",
+            "Range": "10 ⟶ 30",
+            "Attack Speed": "6.00 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Scarecrow",
+        "url": "https://gtd.fandom.com/wiki/Scarecrow",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "650",
+            "Placement Limit": "3",
+            "DPS": "4 ⟶ 52",
+            "Damage": "10 ⟶ 60 5% ⟶ 20%",
+            "Range": "7 ⟶ 13",
+            "Attack Speed": "1.3 ⟶ 0.58"
+        }
+    },
+    {
+        "name": "Dandelion",
+        "url": "https://gtd.fandom.com/wiki/Dandelion",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "700",
+            "Placement Limit": "5",
+            "DPS": "8 ⟶ 180",
+            "Damage": "5 ⟶ 20 x1 ⟷ x9 Burst",
+            "Range": "10 ⟶ 30",
+            "Attack Speed": "6 ⟶ 1"
+        }
+    },
+    {
+        "name": "Spikeroot",
+        "url": "https://gtd.fandom.com/wiki/Spikeroot",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "700",
+            "Placement Limit": "N/A",
+            "DPS": "57 ⟶ 238",
+            "Damage": "38 ⟶ 125",
+            "Range": "7 ⟶ 15",
+            "Attack Speed": "2.00 ⟶ 1.62"
+        }
+    },
+    {
+        "name": "Groundbreaker",
+        "url": "https://gtd.fandom.com/wiki/Groundbreaker",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "400",
+            "Placement Limit": "N/A",
+            "DPS": "9 → 160",
+            "Damage": "3 → 40 x1 - x6 Burst",
+            "Range": "8 → 15",
+            "Attack Speed": "2 → 1.5"
+        }
+    },
+    {
+        "name": "Rolling Log",
+        "url": "https://gtd.fandom.com/wiki/Rolling_Log",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "500",
+            "Placement Limit": "N/A",
+            "Damage": "100 → 700",
+            "Attack Speed": "6"
+        }
+    },
+    {
+        "name": "Dashroom",
+        "url": "https://gtd.fandom.com/wiki/Dashroom",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "600",
+            "Damage": "80 ⟶ 450 10 ⟶ 100",
+            "Attack Speed": "10",
+            "Ability": "Stuns enemies."
+        }
+    },
+    {
+        "name": "Decayroot",
+        "url": "https://gtd.fandom.com/wiki/Decayroot",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "700",
+            "Placement Limit": "5",
+            "DPS": "7 ⟶ 100",
+            "Damage": "10 ⟶ 50 7 ⟶ 50",
+            "Range": "12 ⟶ 32",
+            "Attack Speed": "1.5 ⟶ 0.5 0.5 x 4",
+            "Ability": "Leaves a toxic puddle on map which damages enemies who step on it."
+        }
+    },
+    {
+        "name": "Vine Hair",
+        "url": "https://gtd.fandom.com/wiki/Vine_Hair",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "900",
+            "Placement Limit": "5",
+            "DPS": "8 → 219",
+            "Damage": "18 → 175",
+            "Range": "17 → 32",
+            "Attack Speed": "2.5 → 0.8",
+            "Ability": "Flings enemies backwards."
+        }
+    },
+    {
+        "name": "Floral Ranger",
+        "url": "https://gtd.fandom.com/wiki/Floral_Ranger",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "500",
+            "Placement Limit": "5",
+            "DPS": "18 → 201",
+            "Damage": "x1 → x3 12 → 67",
+            "Range": "10 → 30",
+            "Attack Speed": "2 → 1"
+        }
+    },
+    {
+        "name": "Christmas Tree",
+        "url": "https://gtd.fandom.com/wiki/Christmas_Tree",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "400",
+            "Placement Limit": "N/A",
+            "DPS": "72 → 477 x1 ⟷ x10 Burst",
+            "Damage": "1 → 30 25 → 100",
+            "Range": "15 → 30",
+            "Attack Speed": "2 → 1.5"
+        }
+    },
+    {
+        "name": "Vine Sheriff",
+        "url": "https://gtd.fandom.com/wiki/Vine_Sheriff",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "600",
+            "Placement Limit": "5",
+            "DPS": "40 ⟶220",
+            "Damage": "40 ⟶ 110 x1 ⟶ x2",
+            "Range": "10 ⟶25",
+            "Attack Speed": "2 ⟶1"
+        }
+    },
+    {
+        "name": "Daisy",
+        "url": "https://gtd.fandom.com/wiki/Daisy",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "300",
+            "Placement Limit": "N/A",
+            "DPS": "6 → 124",
+            "Damage": "7 → 70",
+            "Range": "7 → 13",
+            "Attack Speed": "1.20 → 0.57",
+            "Ability": "🌼Has a 10% chance of debuffing enemies so that they take 10% more damage."
+        }
+    },
+    {
+        "name": "Arc Alienstalk",
+        "url": "https://gtd.fandom.com/wiki/Arc_Alienstalk",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "400",
+            "Placement Limit": "5",
+            "DPS": "12 → 119",
+            "Damage": "24 → 95",
+            "Range": "11 → 27",
+            "Attack Speed": "2 → 0.80"
+        }
+    },
+    {
+        "name": "Skeleflower",
+        "url": "https://gtd.fandom.com/wiki/Skeleflower",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "625",
+            "Placement Limit": "6",
+            "DPS": "41 → 163",
+            "Damage": "35 → 65",
+            "Range": "12 → 24",
+            "Attack Speed": "0.86 → 0.40",
+            "Ability": "Increases Speed of Attack (APM) in the first 5 seconds of attack."
+        }
+    },
+    {
+        "name": "Holly",
+        "url": "https://gtd.fandom.com/wiki/Holly",
+        "stats": {
+            "Rarity": "Uncommon",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "650",
+            "DPS": "22  ⟶  280",
+            "Damage": "5  ⟶  50 x1  ⟶  x4 11  ⟶  55",
+            "Range": "10  ⟶ 25",
+            "Attack Speed": "3 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Cherries",
+        "url": "https://gtd.fandom.com/wiki/Cherries",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "350",
+            "DPS": "8 ⟶ 202",
+            "Damage": "15 ⟶ 116",
+            "Range": "7 ⟶ 13",
+            "Attack Speed": "2 ⟶ 0.58"
+        }
+    },
+    {
+        "name": "Pumpkin",
+        "url": "https://gtd.fandom.com/wiki/Pumpkin",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "350",
+            "Placement Limit": "N/A",
+            "DPS": "8 ⟶ 108",
+            "Damage": "10 ⟶ 62",
+            "Range": "7 ⟶ 13",
+            "Attack Speed": "1.3 ⟶ 0.58"
+        }
+    },
+    {
+        "name": "Ghost Pepper",
+        "url": "https://gtd.fandom.com/wiki/Ghost_Pepper",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "400",
+            "Placement Limit": "N/A",
+            "DPS": "6 ⟶ 177",
+            "Damage": "2 ⟶ 62 5 ⟶ 40",
+            "Range": "7 ⟶ 13",
+            "Attack Speed": "1.3 ⟶ 0.58"
+        }
+    },
+    {
+        "name": "Money Tree",
+        "url": "https://gtd.fandom.com/wiki/Money_Tree",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "400",
+            "Placement Limit": "6",
+            "Damage": "+20 ⟶ +65",
+            "Attack Speed": "5 ⟶ 3"
+        }
+    },
+    {
+        "name": "Slapleaf",
+        "url": "https://gtd.fandom.com/wiki/Slapleaf",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "400",
+            "DPS": "10 ⟶ 320",
+            "Damage": "12 ⟶ 200 x1 ⟷ x2",
+            "Range": "7 ⟶ 20",
+            "Attack Speed": "2.5 ⟶ 1.25"
+        }
+    },
+    {
+        "name": "Stemstrike",
+        "url": "https://gtd.fandom.com/wiki/Stemstrike",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "400",
+            "Placement Limit": "N/A",
+            "DPS": "8 ⟶ 100",
+            "Damage": "15 ⟶  100",
+            "Range": "5 ⟶  13",
+            "Attack Speed": "2 ⟶  1"
+        }
+    },
+    {
+        "name": "Bamboo",
+        "url": "https://gtd.fandom.com/wiki/Bamboo",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "500",
+            "Placement Limit": "N/A",
+            "DPS": "10 ⟶ 150",
+            "Damage": "50 ⟶ 70",
+            "Range": "11 ⟶ 20",
+            "Attack Speed": "1.2 ⟶ 0.47"
+        }
+    },
+    {
+        "name": "Rose Trap",
+        "url": "https://gtd.fandom.com/wiki/Rose_Trap",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "600",
+            "Placement Limit": "N/A",
+            "DPS": "50 ⟶ 100",
+            "Damage": "50 ⟶ 100",
+            "Range": "_ ⟶ 5",
+            "Attack Speed": "1.00"
+        }
+    },
+    {
+        "name": "Mushroom",
+        "url": "https://gtd.fandom.com/wiki/Mushroom",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "650",
+            "DPS": "4 ⟶ 43",
+            "Damage": "7 ⟶ 29",
+            "Range": "10 ⟶ 17",
+            "Attack Speed": "1.76 ⟶ 0.69"
+        }
+    },
+    {
+        "name": "Baby Carrots",
+        "url": "https://gtd.fandom.com/wiki/Baby_Carrots",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "700",
+            "Placement Limit": "N/A",
+            "DPS": "8 ⟶ 85",
+            "Damage": "15 ⟶ 85",
+            "Range": "14 ⟶ 24",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Chili Pepper",
+        "url": "https://gtd.fandom.com/wiki/Chili_Pepper",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "800",
+            "Placement Limit": "∞",
+            "Damage": "400 → 1750",
+            "Range": "15 → 38"
+        }
+    },
+    {
+        "name": "Garlicopter",
+        "url": "https://gtd.fandom.com/wiki/Garlicopter",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "950",
+            "Placement Limit": "3",
+            "DPS": "5 ⟶ 175",
+            "Damage": "5 ⟶ 175",
+            "Range": "∞",
+            "Attack Speed": "1 ⟶ 1"
+        }
+    },
+    {
+        "name": "Durian",
+        "url": "https://gtd.fandom.com/wiki/Durian",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "N/A",
+            "DPS": "10 ⟶ 120",
+            "Damage": "4 ⟶ 24 x1 ⟷ x5",
+            "Range": "10 ⟶ 28 4",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Grandma",
+        "url": "https://gtd.fandom.com/wiki/Grandma",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "N/A",
+            "DPS": "17 ⟶ 140",
+            "Damage": "10 ⟶ 35 x1 ⟷ x5",
+            "Range": "12 ⟶ 26 4",
+            "Attack Speed": "3 ⟶ 1.25"
+        }
+    },
+    {
+        "name": "Kiwi Cannon",
+        "url": "https://gtd.fandom.com/wiki/Kiwi_Cannon",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "5",
+            "DPS": "7 ⟶ 240",
+            "Damage": "5 ⟶ 30 x1 ⟷ x8",
+            "Range": "10 ⟶ 30",
+            "Attack Speed": "6 ⟶ 1"
+        }
+    },
+    {
+        "name": "Venus Floortrap",
+        "url": "https://gtd.fandom.com/wiki/Venus_Floortrap",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "5",
+            "Damage": "50 ⟶ 1000",
+            "Attack Speed": "1 ⟶ 5"
+        }
+    },
+    {
+        "name": "Drillbulb",
+        "url": "https://gtd.fandom.com/wiki/Drillbulb",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes (Through Corrupted Summon )",
+            "Placement Cost": "500",
+            "Placement Limit": "6",
+            "Damage": "300 ⟶ 500",
+            "Range": "8",
+            "Attack Speed": "2.00 ⟶ 1.50"
+        }
+    },
+    {
+        "name": "Pumpkrawler",
+        "url": "https://gtd.fandom.com/wiki/Pumpkrawler",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "550",
+            "DPS": "10 → 200",
+            "Damage": "10 → 100 x1 → x2 Burst",
+            "Range": "13 → 25",
+            "Attack Speed": "2 → 1"
+        }
+    },
+    {
+        "name": "Linkberry",
+        "url": "https://gtd.fandom.com/wiki/Linkberry",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "600",
+            "Placement Limit": "5",
+            "DPS": "8 → 58",
+            "Damage": "20 → 75",
+            "Range": "10 → 19",
+            "Attack Speed": "2.50 → 1.33",
+            "Ability": "Placing more than one Linkberry will increase damage by 20% each time."
+        }
+    },
+    {
+        "name": "Mushroom Girl",
+        "url": "https://gtd.fandom.com/wiki/Mushroom_Girl",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "600",
+            "Placement Limit": "5",
+            "DPS": "9 → 250",
+            "Damage": "18 → 250 8",
+            "Range": "10 → 25",
+            "Attack Speed": "2 → 1"
+        }
+    },
+    {
+        "name": "Applepult",
+        "url": "https://gtd.fandom.com/wiki/Applepult",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "225",
+            "Placement Limit": "6",
+            "DPS": "12 ⟶ 200",
+            "Damage": "6 ⟶ 50 x1 ⟷ x6 Burst",
+            "Range": "13 ⟶ 26",
+            "Attack Speed": "3 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Bamboo Pirate",
+        "url": "https://gtd.fandom.com/wiki/Bamboo_Pirate",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "700",
+            "Placement Limit": "5",
+            "DPS": "15 ⟶ 180",
+            "Damage": "30 ⟶ 180",
+            "Range": "12 ⟶ 28 8",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Pumpkrow",
+        "url": "https://gtd.fandom.com/wiki/Pumpkrow",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "800",
+            "Placement Limit": "4",
+            "Damage": "15 → 150",
+            "Range": "∞",
+            "Attack Speed": "1 → 1 5s → 3s"
+        }
+    },
+    {
+        "name": "Gluebulb",
+        "url": "https://gtd.fandom.com/wiki/Gluebulb",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1200",
+            "Damage": "200 →1500 20%→20%",
+            "Ability": "Explodes leaving Glue on the Track which slows Enemies, also causes Damage."
+        }
+    },
+    {
+        "name": "Frozen Vinejaw",
+        "url": "https://gtd.fandom.com/wiki/Frozen_Vinejaw",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "900",
+            "DPS": "20 ⟶250",
+            "Damage": "40 ⟶250",
+            "Range": "13⟶ 24",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Bamboo Barrage",
+        "url": "https://gtd.fandom.com/wiki/Bamboo_Barrage",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "950",
+            "Placement Limit": "5",
+            "DPS": "20 ⟶248",
+            "Damage": "20 ⟶ 93 x1 ⟷ x4 Burst",
+            "Range": "20 ⟶40",
+            "Attack Speed": "4 ⟶1.5"
+        }
+    },
+    {
+        "name": "Cyborg Farmer",
+        "url": "https://gtd.fandom.com/wiki/Cyborg_Farmer",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "600",
+            "Placement Limit": "5",
+            "DPS": "25 → 220",
+            "Damage": "20 → 94",
+            "Range": "12 → 26",
+            "Attack Speed": "0.83 → 0.43"
+        }
+    },
+    {
+        "name": "Snowmobile Shoveler",
+        "url": "https://gtd.fandom.com/wiki/Snowmobile_Shoveler",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "650",
+            "Damage": "150 ⟶ 850",
+            "Attack Speed": "15",
+            "Ability": "Rides down the Track. Snowmobile flings Enemies backwards."
+        }
+    },
+    {
+        "name": "Triorbital Root",
+        "url": "https://gtd.fandom.com/wiki/Triorbital_Root",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "950",
+            "Placement Limit": "4",
+            "DPS": "24 → 221",
+            "Damage": "48 → 265",
+            "Range": "16 → 30",
+            "Attack Speed": "2.00 → 1.20"
+        }
+    },
+    {
+        "name": "Poisonroot",
+        "url": "https://gtd.fandom.com/wiki/Poisonroot",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "5",
+            "DPS": "20→120",
+            "Damage": "40→240",
+            "Range": "8",
+            "Attack Speed": "2.0"
+        }
+    },
+    {
+        "name": "Gooseberries",
+        "url": "https://gtd.fandom.com/wiki/Gooseberries",
+        "stats": {
+            "Rarity": "Rare",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1080",
+            "Placement Limit": "N/A",
+            "DPS": "20 → 214",
+            "Damage": "20 → 100",
+            "Range": "10 → 23",
+            "Attack Speed": "1 → 0.47"
+        }
+    },
+    {
+        "name": "Boombulb",
+        "url": "https://gtd.fandom.com/wiki/Boombulb",
+        "stats": {
+            "Rarity": "Epic",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "650",
+            "Placement Limit": "4",
+            "DPS": "16 ⟶ 138",
+            "Damage": "7 ⟶ 29 40 ⟶ 40",
+            "Range": "10 ⟶ 17",
+            "Attack Speed": "3.00 ⟶ 0.50"
+        }
+    },
+    {
+        "name": "Palm Tree",
+        "url": "https://gtd.fandom.com/wiki/Palm_Tree",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "500",
+            "Placement Limit": "5",
+            "DPS": "20⟶ 454",
+            "Damage": "20 ⟶ 320",
+            "Range": "12 ⟶ 29",
+            "Attack Speed": "1.00 ⟶ 0.71"
+        }
+    },
+    {
+        "name": "Fruit Molotov",
+        "url": "https://gtd.fandom.com/wiki/Fruit_Molotov",
+        "stats": {
+            "Rarity": "Epic",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "750",
+            "Placement Limit": "N/A",
+            "DPS": "13 ⟶ 134",
+            "Damage": "15 ⟶ 150 2 ⟶ 10",
+            "Range": "15 ⟶ 30",
+            "Attack Speed": "2.00 ⟶ 1.50"
+        }
+    },
+    {
+        "name": "Broccoli",
+        "url": "https://gtd.fandom.com/wiki/Broccoli",
+        "stats": {
+            "Rarity": "Epic",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "800",
+            "Placement Limit": "N/A",
+            "DPS": "27 ⟶ 667",
+            "Damage": "100 ⟶ 1000",
+            "Range": "8 ⟶ 16",
+            "Attack Speed": "4.00 ⟶ 1.50"
+        }
+    },
+    {
+        "name": "Inferno Stumb",
+        "url": "https://gtd.fandom.com/wiki/Inferno_Stumb",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "4",
+            "Sound Attack": "https://gtd.fandom.com/wiki/File:InfernoStumpAttack.wav",
+            "DPS": "26 -> 227",
+            "Damage": "25 ⟶ 300 40 ⟶ 40 5",
+            "Range": "10 ⟶ 36",
+            "Attack Speed": "2.5 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Lemon Tree",
+        "url": "https://gtd.fandom.com/wiki/Lemon_Tree",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "N/A",
+            "DPS": "24 ⟶ 288",
+            "Damage": "8 ⟶ 48 x1 ⟷ x6 Burst 4",
+            "Range": "10 ⟶ 28",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Sonic Bloom",
+        "url": "https://gtd.fandom.com/wiki/Sonic_Bloom",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1,000",
+            "Placement Limit": "5",
+            "DPS": "41 ⟶ 440",
+            "Damage": "17 ⟶ 110 x1 ⟷ x6 Burst",
+            "Range": "13 ⟶ 28",
+            "Attack Speed": "2.5 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Drone",
+        "url": "https://gtd.fandom.com/wiki/Drone",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1250",
+            "Placement Limit": "5",
+            "DPS": "30 ⟶ 350",
+            "Damage": "30 ⟶ 350",
+            "Range": "∞",
+            "Attack Speed": "1 ⟶ 1"
+        }
+    },
+    {
+        "name": "Pak Choi",
+        "url": "https://gtd.fandom.com/wiki/Pak_Choi",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1500",
+            "Placement Limit": "5",
+            "DPS": "8 ⟶ 800",
+            "Damage": "15 ⟶ 200 x1 ⟷ x10 Burst",
+            "Range": "6 ⟶ 15",
+            "Attack Speed": "4 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Umbra",
+        "url": "https://gtd.fandom.com/wiki/Umbra",
+        "stats": {
+            "Rarity": "Epic",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1500",
+            "Placement Limit": "3",
+            "DPS": "30 ⟶ 300",
+            "Damage": "75 ⟶ 300",
+            "Range": "20 ⟶ 41",
+            "Attack Speed": "2.50 ⟶ 1.00",
+            "Ability": "Can disable hiding enemies."
+        }
+    },
+    {
+        "name": "Garden Fairy",
+        "url": "https://gtd.fandom.com/wiki/Garden_Fairy",
+        "stats": {
+            "Rarity": "Epic",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "3,000",
+            "Placement Limit": "4",
+            "DPS": "30 ⟶ 334",
+            "Damage": "30 ⟶ 100 25% ⟶ 25%",
+            "Range": "20 ⟶ 40",
+            "Attack Speed": "1.00 ⟶ 0.30"
+        }
+    },
+    {
+        "name": "Bonsai Tree",
+        "url": "https://gtd.fandom.com/wiki/Bonsai_Tree",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "250",
+            "Placement Limit": "6",
+            "DPS": "8 ⟶ 100",
+            "Damage": "8 ⟶ 50 x1 ⟷ x2 Burst +15 ⟶ +60",
+            "Range": "8 ⟶ 17",
+            "Attack Speed": "2 ⟶ 1 5 ⟶ 3"
+        }
+    },
+    {
+        "name": "Plantbuster",
+        "url": "https://gtd.fandom.com/wiki/Plantbuster",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "900",
+            "DPS": "17 → 175",
+            "Damage": "10 → 35 x1 → x5",
+            "Range": "15 → 35",
+            "Attack Speed": "3 → 1"
+        }
+    },
+    {
+        "name": "Twilight Pod",
+        "url": "https://gtd.fandom.com/wiki/Twilight_Pod",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "900",
+            "Placement Limit": "N/A",
+            "DPS": "10 → 210",
+            "Damage": "60 → 700",
+            "Range": "6 → 10",
+            "Attack Speed": "6 → 3.33",
+            "Ability": "Debuffs Enemies so that they take 10% more damage ."
+        }
+    },
+    {
+        "name": "Caulicannon",
+        "url": "https://gtd.fandom.com/wiki/Caulicannon",
+        "stats": {
+            "Rarity": "Epic",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "5",
+            "DPS": "25 ⟶ 260",
+            "Damage": "75 ⟶ 390",
+            "Range": "10 ⟶ 32",
+            "Attack Speed": "3.00 ⟶ 1.50"
+        }
+    },
+    {
+        "name": "Dual-Barralled Eyeplant",
+        "url": "https://gtd.fandom.com/wiki/Dual-Barralled_Eyeplant",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1100",
+            "Placement Limit": "4",
+            "DPS": "50 → 600",
+            "Damage": "50 → 300",
+            "Range": "15→30",
+            "Attack Speed": "1 → 0.5"
+        }
+    },
+    {
+        "name": "Molten Pumpkin",
+        "url": "https://gtd.fandom.com/wiki/Molten_Pumpkin",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1100",
+            "Placement Limit": "10",
+            "DPS": "50 → 568",
+            "Damage": "32 → 205 x1 → x3 Burst 30 → 150",
+            "Range": "15 → 30",
+            "Attack Speed": "4 → 1.88"
+        }
+    },
+    {
+        "name": "Wysteria",
+        "url": "https://gtd.fandom.com/wiki/Wysteria",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1200",
+            "Placement Limit": "5",
+            "DPS": "32 → 270",
+            "Damage": "5 → 35 75 → 350",
+            "Range": "10 → 34 8",
+            "Attack Speed": "2.5 →  1.43"
+        }
+    },
+    {
+        "name": "Fragpetal",
+        "url": "https://gtd.fandom.com/wiki/Fragpetal",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1500",
+            "Placement Limit": "5",
+            "DPS": "20 ⟶ 400",
+            "Damage": "100 ⟶ 600 12",
+            "Range": "10 ⟶ 28",
+            "Attack Speed": "5 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Inferno Stump",
+        "url": "https://gtd.fandom.com/wiki/Inferno_Stump",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "4",
+            "Sound Attack": "https://gtd.fandom.com/wiki/File:InfernoStumpAttack.wav",
+            "DPS": "26 -> 227",
+            "Damage": "25 ⟶ 300 40 ⟶ 40 5",
+            "Range": "10 ⟶ 36",
+            "Attack Speed": "2.5 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Turf Tanker",
+        "url": "https://gtd.fandom.com/wiki/Turf_Tanker",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "4",
+            "DPS": "34 ⟶ 453",
+            "Damage": "100 ⟶ 590 10",
+            "Range": "20 ⟶ 33",
+            "Attack Speed": "3 ⟶ 1.3"
+        }
+    },
+    {
+        "name": "Woodsmash",
+        "url": "https://gtd.fandom.com/wiki/Woodsmash",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "4",
+            "DPS": "20 ⟶ 500",
+            "Damage": "30 ⟶ 250 10",
+            "Range": "12 ⟶ 28",
+            "Attack Speed": "1.5 ⟶ 0.5"
+        }
+    },
+    {
+        "name": "Snowballer",
+        "url": "https://gtd.fandom.com/wiki/Snowballer",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1250",
+            "DPS": "34 ⟶ 550",
+            "Damage": "50 ⟶ 275",
+            "Range": "18 ⟶ 30",
+            "Attack Speed": "1.5 ⟶ 0.5"
+        }
+    },
+    {
+        "name": "Rolling Wreath",
+        "url": "https://gtd.fandom.com/wiki/Rolling_Wreath",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "600",
+            "Damage": "200 ⟶ 1100 7.8"
+        }
+    },
+    {
+        "name": "Coconut Cannon",
+        "url": "https://gtd.fandom.com/wiki/Coconut_Cannon",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1250",
+            "Placement Limit": "4",
+            "DPS": "60 ⟶550",
+            "Damage": "225 ⟶1100",
+            "Range": "15 ⟶20",
+            "Attack Speed": "3.75 ⟶2"
+        }
+    },
+    {
+        "name": "Plasma Petal",
+        "url": "https://gtd.fandom.com/wiki/Plasma_Petal",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "800",
+            "Placement Limit": "5",
+            "DPS": "56 → 499",
+            "Damage": "37 → 133",
+            "Range": "18 → 30",
+            "Attack Speed": "2.00 → 0.80"
+        }
+    },
+    {
+        "name": "Wrecking Cornball",
+        "url": "https://gtd.fandom.com/wiki/Wrecking_Cornball",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "5",
+            "DPS": "20→400",
+            "Damage": "30→200",
+            "Range": "13→21",
+            "Attack Speed": "1.5→0.5"
+        }
+    },
+    {
+        "name": "Snowman",
+        "url": "https://gtd.fandom.com/wiki/Snowman",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "750",
+            "Placement Limit": "1",
+            "Range": "10 ⟶30"
+        }
+    },
+    {
+        "name": "Repair Worker",
+        "url": "https://gtd.fandom.com/wiki/Repair_Worker",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "500",
+            "Placement Limit": "1",
+            "DPS": "N/A",
+            "Damage": "N/A",
+            "Range": "N/A",
+            "Attack Speed": "5 ⟶ 3",
+            "Ability": "❤️ Increases your base Health over time."
+        }
+    },
+    {
+        "name": "Speed Sprinkler",
+        "url": "https://gtd.fandom.com/wiki/Speed_Sprinkler",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "600",
+            "Placement Limit": "2",
+            "DPS": "N/A",
+            "Damage": "N/A",
+            "Range": "10 ⟶ 30",
+            "Attack Speed": "N/A",
+            "Ability": "Increases the attack speed of the towers inside its range."
+        }
+    },
+    {
+        "name": "Lawnmower",
+        "url": "https://gtd.fandom.com/wiki/Lawnmower",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "700",
+            "Placement Limit": "N/A",
+            "DPS": "N/A",
+            "Damage": "300 ⟶ 1500",
+            "Range": "All path where it is placed",
+            "Attack Speed": "10"
+        }
+    },
+    {
+        "name": "Blueberries",
+        "url": "https://gtd.fandom.com/wiki/Blueberries",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "700",
+            "Placement Limit": "N/A",
+            "DPS": "20 ⟶ 256",
+            "Damage": "20 ⟶ 120",
+            "Range": "13 ⟶ 26",
+            "Attack Speed": "1 ⟶ 0.47"
+        }
+    },
+    {
+        "name": "Fan Flower",
+        "url": "https://gtd.fandom.com/wiki/Fan_Flower",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "5",
+            "DPS": "3 ⟶ 40",
+            "Damage": "5 ⟶ 40",
+            "Range": "8 ⟶ 25",
+            "Attack Speed": "2 ⟶ 1",
+            "Ability": "This tower can push enemies."
+        }
+    },
+    {
+        "name": "Peas In A Pod",
+        "url": "https://gtd.fandom.com/wiki/Peas_In_A_Pod",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "N/A",
+            "DPS": "20 ⟶ 375",
+            "Damage": "10 ⟶ 75",
+            "Range": "12 ⟶ 26",
+            "Attack Speed": "0.50 ⟶ 0.20"
+        }
+    },
+    {
+        "name": "Walnut",
+        "url": "https://gtd.fandom.com/wiki/Walnut",
+        "stats": {
+            "Rarity": "Legendary",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "6",
+            "Damage": "Depending on the enemy's health 2000",
+            "Attack Speed": "1.00 ⟶ 5.00"
+        }
+    },
+    {
+        "name": "Potshade",
+        "url": "https://gtd.fandom.com/wiki/Potshade",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1200",
+            "Placement Limit": "8",
+            "DPS": "15 ⟶ 350",
+            "Damage": "30 ⟶ 350",
+            "Range": "15 ⟶ 30",
+            "Attack Speed": "2.00 ⟶ 1.00"
+        }
+    },
+    {
+        "name": "Sunflower",
+        "url": "https://gtd.fandom.com/wiki/Sunflower",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1200",
+            "Placement Limit": "8",
+            "DPS": "32 ⟶ 397",
+            "Damage": "120 ⟶ 700",
+            "Range": "25 ⟶ 30",
+            "Attack Speed": "4 ⟶ 1.82"
+        }
+    },
+    {
+        "name": "Watermelon",
+        "url": "https://gtd.fandom.com/wiki/Watermelon",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "7",
+            "DPS": "44 ⟶ 480",
+            "Damage": "13 ⟶ 60 1x ⟷ 10x Burst",
+            "Range": "15 ⟶ 33",
+            "Attack Speed": "3 ⟶ 1.25"
+        }
+    },
+    {
+        "name": "Laser Plant",
+        "url": "https://gtd.fandom.com/wiki/Laser_Plant",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1500",
+            "Placement Limit": "3",
+            "DPS": "24 ⟶ 667",
+            "Damage": "6 ⟶ 50 x1 ⟷ x4 Burst",
+            "Range": "20 ⟶ 35",
+            "Attack Speed": "1 ⟶ 0.3"
+        }
+    },
+    {
+        "name": "Blackberries",
+        "url": "https://gtd.fandom.com/wiki/Blackberries",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "6",
+            "DPS": "40 ⟶ 600",
+            "Damage": "20 ⟶ 150 1x ⟷ 6x Burst",
+            "Range": "15 ⟶ 32",
+            "Attack Speed": "3 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Garden Alien",
+        "url": "https://gtd.fandom.com/wiki/Garden_Alien",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "900",
+            "Placement Limit": "4",
+            "DPS": "34 ⟶ 600",
+            "Damage": "50 ⟶ 450 x1 ⟷ x3 Burst",
+            "Range": "10 ⟶ 30 8",
+            "Attack Speed": "3 ⟶  1.5"
+        }
+    },
+    {
+        "name": "Thornzilla",
+        "url": "https://gtd.fandom.com/wiki/Thornzilla",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "900",
+            "Placement Limit": "4",
+            "DPS": "41 → 700",
+            "Damage": "4 → 10 x1 → x5 Burst 25 → 240",
+            "Range": "9 → 29 12",
+            "Attack Speed": "2.5 → 1.25"
+        }
+    },
+    {
+        "name": "Grave Crawler",
+        "url": "https://gtd.fandom.com/wiki/Grave_Crawler",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1000",
+            "Damage": "700 → 4000",
+            "Attack Speed": "8",
+            "Ability": "Has a 5% chance to eliminate enemies below 25% HP,as long as they are at 25,000 current health or less."
+        }
+    },
+    {
+        "name": "Plasmaspore",
+        "url": "https://gtd.fandom.com/wiki/Plasmaspore",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "4",
+            "DPS": "38 → 875",
+            "Damage": "15 → 175 x1 -x5 Burst",
+            "Range": "16 → 38",
+            "Attack Speed": "2 → 1"
+        }
+    },
+    {
+        "name": "Rosemire",
+        "url": "https://gtd.fandom.com/wiki/Rosemire",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1250",
+            "Placement Limit": "4",
+            "DPS": "35 → 694",
+            "Damage": "45 → 400 3% → 15%",
+            "Range": "12 → 27",
+            "Attack Speed": "1.3 → 0.58"
+        }
+    },
+    {
+        "name": "UFO Seedling",
+        "url": "https://gtd.fandom.com/wiki/UFO_Seedling",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1300",
+            "Placement Limit": "5",
+            "DPS": "25 → 450",
+            "Damage": "25 → 450",
+            "Range": "∞ (Global Range)",
+            "Attack Speed": "1.00",
+            "Ability": "This tower is a Spawner , meaning it has no range limitation and can target enemies anywhere on the map."
+        }
+    },
+    {
+        "name": "Cursed Fruit",
+        "url": "https://gtd.fandom.com/wiki/Cursed_Fruit",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1500",
+            "Placement Limit": "4",
+            "DPS": "35 ⟶ 200",
+            "Damage": "50 ⟶ 200",
+            "Range": "12 ⟶ 30",
+            "Attack Speed": "1.43 ⟶ 1",
+            "Ability": "Has a random chance of duplicating itself up to x5, giving x5 more dps. It is duplicated only once when placed down ."
+        }
+    },
+    {
+        "name": "Aurabloom",
+        "url": "https://gtd.fandom.com/wiki/Aurabloom",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "4",
+            "DPS": "26 → 750",
+            "Damage": "42 → 900",
+            "Range": "17 → 35",
+            "Attack Speed": "1.67 → 1.2"
+        }
+    },
+    {
+        "name": "Snowspore",
+        "url": "https://gtd.fandom.com/wiki/Snowspore",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1500",
+            "DPS": "50⟶334",
+            "Damage": "125 ⟶ 500 10%⟶ 10%",
+            "Range": "16 ⟶ 32",
+            "Attack Speed": "2.5 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Gingerbread Seedmill",
+        "url": "https://gtd.fandom.com/wiki/Gingerbread_Seedmill",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "5000",
+            "Placement Limit": "1",
+            "Ability": "Generates an additional 5% in final Seeds income, activated after a minimum of 180 seconds placed, this stacks with the placement of the Gingerbread SeedmillUnit from other players."
+        }
+    },
+    {
+        "name": "Quantum Stalk",
+        "url": "https://gtd.fandom.com/wiki/Quantum_Stalk",
+        "stats": {
+            "Rarity": "Mhytical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1100",
+            "Placement Limit": "4",
+            "DPS": "80 → 800",
+            "Damage": "19 → 58",
+            "Range": "18 → 32",
+            "Attack Speed": "1.71 → 1.09"
+        }
+    },
+    {
+        "name": "Seedmill",
+        "url": "https://gtd.fandom.com/wiki/Seedmill",
+        "stats": {
+            "Rarity": "Mythical",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "5000",
+            "Placement Limit": "1",
+            "Ability": "Generates an additional 5% in final Seeds income, activated after a minimum of 180 seconds placed, this stacks with the placement of the Gingerbread Seedmill Unit from other players."
+        }
+    },
+    {
+        "name": "Icebuds",
+        "url": "https://gtd.fandom.com/wiki/Icebuds",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1000",
+            "Placement Limit": "5",
+            "Sound Attack": "https://gtd.fandom.com/wiki/File:IcebudsAttack.wav",
+            "DPS": "13 ⟶ 200",
+            "Damage": "5 ⟶ 40 1x ⟷ 5x Burst 8 10% ⟶ 40%",
+            "Range": "10 ⟶ 35",
+            "Attack Speed": "2 ⟶ 1",
+            "Ability": "Freezing."
+        }
+    },
+    {
+        "name": "Mango Cluster",
+        "url": "https://gtd.fandom.com/wiki/Mango_Cluster",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "2500",
+            "Placement Limit": "4",
+            "DPS": "75 → 2732",
+            "Damage": "50 → 607 (x1 - x3 Burst) 12",
+            "Range": "25 → 45",
+            "Attack Speed": "2 → 0.67"
+        }
+    },
+    {
+        "name": "Stun Flower",
+        "url": "https://gtd.fandom.com/wiki/Stun_Flower",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "800",
+            "Placement Limit": "3",
+            "DPS": "26 ⟶ 450",
+            "Damage": "90 ⟶ 900",
+            "Range": "15 ⟶ 41",
+            "Attack Speed": "3.53 ⟶ 2.00",
+            "Ability": "When attacking, it Stuns the enemy, causing them to stop moving."
+        }
+    },
+    {
+        "name": "Rafflesia",
+        "url": "https://gtd.fandom.com/wiki/Rafflesia",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1250",
+            "Placement Limit": "6",
+            "Damage": "750 ⟶ 1500",
+            "Range": "8 ⟶ 8",
+            "Attack Speed": "5 ⟶ 1"
+        }
+    },
+    {
+        "name": "Ballistic Banana",
+        "url": "https://gtd.fandom.com/wiki/Ballistic_Banana",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1500",
+            "Placement Limit": "5",
+            "DPS": "20 ⟶ 1334",
+            "Damage": "100 ⟶ 2000 12",
+            "Range": "15 ⟶ 34",
+            "Attack Speed": "5.00 ⟶ 1.50"
+        }
+    },
+    {
+        "name": "Confusion Plant",
+        "url": "https://gtd.fandom.com/wiki/Confusion_Plant",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1500",
+            "Placement Limit": "3",
+            "DPS": "45 → 734",
+            "Damage": "225 → 2200",
+            "Range": "8 → 27",
+            "Attack Speed": "5 → 3",
+            "Ability": "When it attacks, it confuses the enemy, causing them to turn around and walk back."
+        }
+    },
+    {
+        "name": "Lucky Clover",
+        "url": "https://gtd.fandom.com/wiki/Lucky_Clover",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1500",
+            "Placement Limit": "1",
+            "DPS": "N/A",
+            "Damage": "N/A",
+            "Range": "8 → 25",
+            "Attack Speed": "N/A",
+            "Ability": "Increases chance per attack of a Critical Hitx2.5 Damage for all other units within Range. Additionally IncreasesDamage of all other unitsithin Range by 10%."
+        }
+    },
+    {
+        "name": "Tiki Tower",
+        "url": "https://gtd.fandom.com/wiki/Tiki_Tower",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1600",
+            "Placement Limit": "4",
+            "DPS": "90 ⟶ 2700",
+            "Damage": "90 ⟶ 1350",
+            "Range": "27 ⟶ 48",
+            "Attack Speed": "1.00 ⟶ 0.50"
+        }
+    },
+    {
+        "name": "Electroleaf",
+        "url": "https://gtd.fandom.com/wiki/Electroleaf",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "2000",
+            "Placement Limit": "5",
+            "DPS": "36 ⟶ 1200",
+            "Damage": "12 ⟶ 100 1x ⟷ 6x Burst",
+            "Range": "15 ⟶ 35",
+            "Attack Speed": "2.00 ⟶ 0.50",
+            "Ability": "⚡Electric — attacks can chain between multiple enemies."
+        }
+    },
+    {
+        "name": "Lil Stump",
+        "url": "https://gtd.fandom.com/wiki/Lil_Stump",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes (through Survival Mode )",
+            "Placement Cost": "800",
+            "Placement Limit": "4",
+            "DPS": "60 ⟶ 1876",
+            "Damage": "30 ⟶ 300 1x ⟷ 5x Burst",
+            "Range": "18 ⟶ 37",
+            "Attack Speed": "2.5 ⟶ 0.80"
+        }
+    },
+    {
+        "name": "Pyropetal",
+        "url": "https://gtd.fandom.com/wiki/Pyropetal",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "2000",
+            "Placement Limit": "2",
+            "DPS": "110 ⟶ 2460",
+            "Damage": "15 ⟶ 70 x1 ⟷ x6 Burst 40 ⟶ 340",
+            "Range": "11 ⟶ 34",
+            "Attack Speed": "3 ⟶ 1"
+        }
+    },
+    {
+        "name": "Beehive",
+        "url": "https://gtd.fandom.com/wiki/Beehive",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1500",
+            "Placement Limit": "3",
+            "Damage": "50 ⟶ 2000",
+            "Range": "∞",
+            "Attack Speed": "4.52s ⟶ 2.5s"
+        }
+    },
+    {
+        "name": "Bubble Plant",
+        "url": "https://gtd.fandom.com/wiki/Bubble_Plant",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1250",
+            "Placement Limit": "5",
+            "DPS": "25 ⟶ 750",
+            "Damage": "50 ⟶ 750 8",
+            "Range": "15 ⟶ 35",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Petalray",
+        "url": "https://gtd.fandom.com/wiki/Petalray",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "2500",
+            "Placement Limit": "4",
+            "DPS": "88 ⟶ 2500",
+            "Damage": "50 ⟶ 500 x1 ⟷ x5 Burst",
+            "Range": "15 ⟶ 35",
+            "Attack Speed": "2.86 ⟶ 1"
+        }
+    },
+    {
+        "name": "Prismleaf",
+        "url": "https://gtd.fandom.com/wiki/Prismleaf",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "225",
+            "Placement Limit": "5",
+            "DPS": "60 → 360",
+            "Damage": "30 → 126",
+            "Range": "18 → 36",
+            "Attack Speed": "0.5 → 0.35"
+        }
+    },
+    {
+        "name": "Venus Flytrap",
+        "url": "https://gtd.fandom.com/wiki/Venus_Flytrap",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "2900",
+            "Placement Limit": "4",
+            "DPS": "188 ⟶ 3750",
+            "Damage": "225 ⟶ 1500 x1 ⟷ x4 Burst 12",
+            "Range": "20 ⟶ 38",
+            "Attack Speed": "3 ⟶ 1"
+        }
+    },
+    {
+        "name": "Bloodvine",
+        "url": "https://gtd.fandom.com/wiki/Bloodvine",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes (through Classic Summon)",
+            "Placement Cost": "2000",
+            "Placement Limit": "5",
+            "DPS": "100 ⟶ 2600",
+            "Damage": "100 ⟶ 1560 1x ⟷ 3x Burst",
+            "Range": "20 ⟶ 41",
+            "Attack Speed": "2.50 ⟶ 1.50"
+        }
+    },
+    {
+        "name": "Pesticider",
+        "url": "https://gtd.fandom.com/wiki/Pesticider",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "600",
+            "Placement Limit": "6",
+            "DPS": "8 ⟶ 407",
+            "Damage": "3 ⟶ 75 1x ⟷ 5x Burst 2.5 3 ⟶ 50",
+            "Range": "20 ⟶ 36",
+            "Attack Speed": "2 ⟶ 0.92",
+            "Ability": "Has a 25% chance of Poison damage. Enemies hit by Poison Damage will explode and Damage other enemies when KO'ed."
+        }
+    },
+    {
+        "name": "Seed Mech",
+        "url": "https://gtd.fandom.com/wiki/Seed_Mech",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "3000",
+            "Placement Limit": "5",
+            "DPS": "175 ⟶ 2667",
+            "Damage": "35 ⟶ 320 x1 ⟷ x2 Burst",
+            "Range": "17 ⟶ 40",
+            "Attack Speed": "1 ⟶ 0.6"
+        }
+    },
+    {
+        "name": "Atomic Pepper",
+        "url": "https://gtd.fandom.com/wiki/Atomic_Pepper",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "4500",
+            "Placement Limit": "3",
+            "Damage": "3000 ⟶ 30000",
+            "Range": "14 ⟶ 42"
+        }
+    },
+    {
+        "name": "Passion Shooter",
+        "url": "https://gtd.fandom.com/wiki/Passion_Shooter",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes (through Corrupted Summon )",
+            "Placement Cost": "2000",
+            "Placement Limit": "6",
+            "DPS": "80 ⟶ 1200",
+            "Damage": "20 ⟶ 120 1x ⟷ 10x Burst",
+            "Range": "20 ⟶ 45",
+            "Attack Speed": "2.50 ⟶ 1.00"
+        }
+    },
+    {
+        "name": "Shadestool",
+        "url": "https://gtd.fandom.com/wiki/Shadestool",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "5500",
+            "Placement Limit": "3",
+            "DPS": "100 → 5494",
+            "Damage": "75 → 360 x1 ⟷ x6 Burst",
+            "Range": "20 → 33",
+            "Attack Speed": "1.00 → 0.30"
+        }
+    },
+    {
+        "name": "Chomp Man",
+        "url": "https://gtd.fandom.com/wiki/Chomp_Man",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4750",
+            "Placement Limit": "3",
+            "DPS": "307 ⟶ 5760",
+            "Damage": "100 ⟶ 720 x1 ⟷ x6 Burst",
+            "Range": "24 ⟶ 42",
+            "Attack Speed": "1.5 ⟶ 0.5"
+        }
+    },
+    {
+        "name": "Super Sprout",
+        "url": "https://gtd.fandom.com/wiki/Super_Sprout",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4500",
+            "Placement Limit": "3",
+            "DPS": "200 ⟶ 3500",
+            "Damage": "200 ⟶ 2100 6",
+            "Range": "25 ⟶ 49",
+            "Attack Speed": "1 ⟶  0.6"
+        }
+    },
+    {
+        "name": "Spider Lily",
+        "url": "https://gtd.fandom.com/wiki/Spider_Lily",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4000",
+            "Placement Limit": "4",
+            "DPS": "100 ⟶ 2280",
+            "Damage": "100 ⟶ 800",
+            "Range": "20 ⟶ 40",
+            "Attack Speed": "1 ⟶ 0.35"
+        }
+    },
+    {
+        "name": "Mudmauler",
+        "url": "https://gtd.fandom.com/wiki/Mudmauler",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "3300",
+            "Placement Limit": "3",
+            "DPS": "240 ⟶ 4500",
+            "Damage": "480 ⟶ 3000 x1 ⟷ x2 Burst 8",
+            "Range": "16 ⟶ 40",
+            "Attack Speed": "3.00 ⟶ 1.00",
+            "Ability": "2x damage to enemies below 50% HP."
+        }
+    },
+    {
+        "name": "Stretch Plant",
+        "url": "https://gtd.fandom.com/wiki/Stretch_Plant",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2500",
+            "Placement Limit": "4",
+            "DPS": "101 ⟶ 2678",
+            "Damage": "43 ⟶ 270 x1 ⟷ x7 Burst",
+            "Range": "12 ⟶ 32",
+            "Attack Speed": "3 ⟶  0.71"
+        }
+    },
+    {
+        "name": "Sporefang",
+        "url": "https://gtd.fandom.com/wiki/Sporefang",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes (through Survival Mode )",
+            "Placement Cost": "2200",
+            "Placement Limit": "4",
+            "DPS": "40 ⟶ 1620",
+            "Damage": "20 ⟶ 270 1x ⟷ 5x Burst",
+            "Range": "15 ⟶ 30",
+            "Attack Speed": "1.50 ⟶ 0.50"
+        }
+    },
+    {
+        "name": "Robo Flower",
+        "url": "https://gtd.fandom.com/wiki/Robo_Flower",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1800",
+            "Placement Limit": "6",
+            "DPS": "53 ⟶ 1500",
+            "Damage": "45 ⟶ 300",
+            "Range": "15 ⟶ 30",
+            "Attack Speed": "0.86 ⟶ 0.40",
+            "Ability": "The damage of this unit increases by 20% per second up to a maximum of 2x damage. If this unit stops attacking, they will lose their damage increase."
+        }
+    },
+    {
+        "name": "Rangeleaf",
+        "url": "https://gtd.fandom.com/wiki/Rangeleaf",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "750",
+            "Placement Limit": "2",
+            "Range": "10 → 30 x1.05 → x1.20",
+            "Ability": "Increases the Range of all units in range."
+        }
+    },
+    {
+        "name": "Mummified Pepper",
+        "url": "https://gtd.fandom.com/wiki/Mummified_Pepper",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1000",
+            "Placement Limit": "3",
+            "Damage": "500 → 10000",
+            "Range": "15→38",
+            "Ability": "Special ability to blow up."
+        }
+    },
+    {
+        "name": "Deathesia",
+        "url": "https://gtd.fandom.com/wiki/Deathesia",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1850",
+            "Placement Limit": "4",
+            "Damage": "600 ⟶ 3000",
+            "Range": "10 ⟶ 10",
+            "Attack Speed": "3 ⟶ 1.5",
+            "Ability": "Has a 20% chance of increasing Damage by 7.5% for 5 seconds."
+        }
+    },
+    {
+        "name": "Fungal Barrage",
+        "url": "https://gtd.fandom.com/wiki/Fungal_Barrage",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "4500",
+            "Placement Limit": "4",
+            "DPS": "234 ⟶ 3200",
+            "Damage": "350 ⟶ 1600 30 ⟶ 300",
+            "Range": "21 ⟶ 38 8",
+            "Attack Speed": "1.5 ⟶ 0.5"
+        }
+    },
+    {
+        "name": "Witchleaf",
+        "url": "https://gtd.fandom.com/wiki/Witchleaf",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4500",
+            "Placement Limit": "3",
+            "DPS": "203 → 4500",
+            "Damage": "270 → 2250 10% → 30%",
+            "Range": "20 → 42",
+            "Attack Speed": "1.33 → 0.5",
+            "Ability": "Alternate attacks of slow and transformation. Has a 5% chance per transformation attack of transforming Enemies into a weaker Enemy."
+        }
+    },
+    {
+        "name": "Ghost Shroom",
+        "url": "https://gtd.fandom.com/wiki/Ghost_Shroom",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "6000",
+            "DPS": "250 → 11500",
+            "Damage": "250 → 4600 15%→15%",
+            "Range": "∞",
+            "Attack Speed": "1 → 0.4",
+            "Ability": "Follows you around giving dynamic range Freezing Slowness"
+        }
+    },
+    {
+        "name": "Enchanting Rose",
+        "url": "https://gtd.fandom.com/wiki/Enchanting_Rose",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "2000",
+            "Placement Limit": "2",
+            "Range": "10 → 30",
+            "Attack Speed": "5 → 3",
+            "Ability": "Hypnotises Enemies to turn the other way and cause Damage to other Enemies."
+        }
+    },
+    {
+        "name": "Garden Wizard",
+        "url": "https://gtd.fandom.com/wiki/Garden_Wizard",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1750",
+            "Placement Limit": "3",
+            "DPS": "55 → 2205",
+            "Damage": "10 → 250 100 → 1640 10% → 45%",
+            "Range": "9 → 30",
+            "Attack Speed": "2 → 0.86",
+            "Ability": "Casts spells with many different attack types: Damage, Freeze, Stun, Fire, Confusion."
+        }
+    },
+    {
+        "name": "Snowblossom",
+        "url": "https://gtd.fandom.com/wiki/Snowblossom",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3500",
+            "Placement Limit": "3",
+            "DPS": "252 ⟶ 2874",
+            "Damage": "84⟶ 479 x1⟶ x6 5%⟶ 25%",
+            "Range": "23 ⟶ 35",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Subzero Stem",
+        "url": "https://gtd.fandom.com/wiki/Subzero_Stem",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "9333",
+            "Placement Limit": "2",
+            "DPS": "438 ⟶ 7910",
+            "Damage": "75 ⟶ 565 x1  ⟶ x7 25% ⟶ 25%",
+            "Range": "24 ⟶ 44",
+            "Attack Speed": "1.2 ⟶ 0.5",
+            "Ability": "Ability to freeze all Enemies within range by 75% for 12 seconds. Cost: 17500 Cooldown: 4 minutes"
+        }
+    },
+    {
+        "name": "Zapseed",
+        "url": "https://gtd.fandom.com/wiki/Zapseed",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "3000",
+            "Placement Limit": "5",
+            "DPS": "50 → 2000",
+            "Damage": "100 → 4000",
+            "Range": "Infinite",
+            "Attack Speed": "2 → 2"
+        }
+    },
+    {
+        "name": "Galaxiflora",
+        "url": "https://gtd.fandom.com/wiki/Galaxiflora",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1700",
+            "Placement Limit": "5",
+            "DPS": "27 → 1710",
+            "Damage": "45 → 940",
+            "Range": "15 → 34",
+            "Attack Speed": "1.71 → 0.67",
+            "Ability": "Stuns Enemies."
+        }
+    },
+    {
+        "name": "Bouncing Shroom",
+        "url": "https://gtd.fandom.com/wiki/Bouncing_Shroom",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "4950",
+            "Placement Limit": "3",
+            "DPS": "300 → 4167",
+            "Damage": "900 → 12501",
+            "Range": "25 → 45",
+            "Attack Speed": "3 → 3",
+            "Ability": "Fires a Mini Bouncing Shroom on the Track which bounces down the Track for additional Damage."
+        }
+    },
+    {
+        "name": "Peppermint Supernova",
+        "url": "https://gtd.fandom.com/wiki/Peppermint_Supernova",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "5000",
+            "Placement Limit": "2",
+            "DPS": "80 ⟶ 700",
+            "Damage": "1200 ⟶ 5250",
+            "Range": "30 ⟶ 50",
+            "Attack Speed": "15.00 ⟶ 7.50"
+        }
+    },
+    {
+        "name": "Winterray Flower",
+        "url": "https://gtd.fandom.com/wiki/Winterray_Flower",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4250",
+            "Placement Limit": "4",
+            "DPS": "200 ⟶ 3000",
+            "Damage": "600 ⟶ 6000 3% ⟶ 15%",
+            "Range": "15 ⟶ 35",
+            "Attack Speed": "3 ⟶ 2"
+        }
+    },
+    {
+        "name": "Celestial Stem",
+        "url": "https://gtd.fandom.com/wiki/Celestial_Stem",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1100",
+            "Placement Limit": "1",
+            "Range": "10 → 25",
+            "Attack Speed": "4.00",
+            "Ability": "Increases Speed of attack (APM) for Units within Range. Also decreases Ability Cooldown for Units within Range."
+        }
+    },
+    {
+        "name": "Distortion Flower",
+        "url": "https://gtd.fandom.com/wiki/Distortion_Flower",
+        "stats": {
+            "Rarity": "Godly",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "4500",
+            "Placement Limit": "3",
+            "DPS": "224 → 4916",
+            "Damage": "60 → 430",
+            "Range": "17 → 42",
+            "Attack Speed": "0.75 → 0.50",
+            "Ability": "Additional Drain effect applied to Enemies after attack. Damage to Enemies compounds overtime and slows Enemies by 20% until the effect time runs out. This Unit can hit up to 5 Enemies at once with AOE."
+        }
+    },
+    {
+        "name": "Electric Beetroot",
+        "url": "https://gtd.fandom.com/wiki/Electric_Beetroot",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "200",
+            "Placement Limit": "5",
+            "Sound Attack": "https://gtd.fandom.com/wiki/File:Electric_BeetrootSound.mp3",
+            "DPS": "4 ⟶ 96",
+            "Damage": "8 ⟶ 48",
+            "Range": "10 ⟶ 31",
+            "Attack Speed": "2 ⟶ 0.5",
+            "Ability": "⚡Electric. Attacks can bounce from one enemy to another."
+        }
+    },
+    {
+        "name": "Doompetal",
+        "url": "https://gtd.fandom.com/wiki/Doompetal",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "400",
+            "Placement Limit": "5",
+            "DPS": "53 ⟶ 2624",
+            "Damage": "11 ⟶ 110 2 ⟶ 75",
+            "Range": "14 ⟶ 42",
+            "Attack Speed": "1.2 ⟶ 0.47"
+        }
+    },
+    {
+        "name": "Grapes",
+        "url": "https://gtd.fandom.com/wiki/Grapes",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1550",
+            "Placement Limit": "9",
+            "DPS": "120 ⟶ 1688",
+            "Damage": "40 ⟶ 250 x1 ⟷ x9 Burst",
+            "Range": "16 ⟶ 32",
+            "Attack Speed": "3 ⟶ 1.33"
+        }
+    },
+    {
+        "name": "Hellroot",
+        "url": "https://gtd.fandom.com/wiki/Hellroot",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2000",
+            "Placement Limit": "3",
+            "DPS": "214 ⟶ 3840",
+            "Damage": "200 ⟶ 1800 x1 ↔ x3 Burst 120 8",
+            "Range": "15 ⟶ 36",
+            "Attack Speed": "3 ⟶ 1"
+        }
+    },
+    {
+        "name": "Big Mushroom",
+        "url": "https://gtd.fandom.com/wiki/Big_Mushroom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2500",
+            "Placement Limit": "3",
+            "DPS": "300⟶ 4800",
+            "Damage": "300 ⟶ 2400 x1 ⟷ x5 Burst 10",
+            "Range": "17⟶ 43",
+            "Attack Speed": "3 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Corn",
+        "url": "https://gtd.fandom.com/wiki/Corn",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1 750",
+            "Placement Limit": "5",
+            "DPS": "52 ⟶ 2200",
+            "Damage": "16 ⟶ 200",
+            "Range": "20 ⟶ 45",
+            "Attack Speed": "2.5 ⟶ 0.8"
+        }
+    },
+    {
+        "name": "Golem",
+        "url": "https://gtd.fandom.com/wiki/Golem",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1325",
+            "Placement Limit": "5",
+            "DPS": "93 ⟶ 2167",
+            "Damage": "275 ⟶ 3250 10",
+            "Range": "15 ⟶ 41",
+            "Attack Speed": "3 ⟶ 1.5",
+            "Ability": "Throws Rocks which stuns Enemies hit."
+        }
+    },
+    {
+        "name": "Juggercorn",
+        "url": "https://gtd.fandom.com/wiki/Juggercorn",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2750",
+            "Placement Limit": "5",
+            "DPS": "50 ⟶ 2500",
+            "Damage": "175 ⟶ 500 1x ⟷ 5x Burst",
+            "Range": "20 ⟶ 45",
+            "Attack Speed": "4 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Blossom Barrage",
+        "url": "https://gtd.fandom.com/wiki/Blossom_Barrage",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2500",
+            "Placement Limit": "4",
+            "DPS": "200 ⟶ 3334",
+            "Damage": "40 ⟶ 200 x1 ⟷ x5 Burst",
+            "Range": "20 ⟶ 45",
+            "Attack Speed": "1 ⟶ 0.3"
+        }
+    },
+    {
+        "name": "Dual Blasterbud",
+        "url": "https://gtd.fandom.com/wiki/Dual_Blasterbud",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "5500",
+            "Placement Limit": "2",
+            "DPS": "150 ⟶ 6667",
+            "Damage": "150⟶ 2000",
+            "Range": "20 ⟶ 45",
+            "Attack Speed": "1 ⟶ 0.3"
+        }
+    },
+    {
+        "name": "Rosebeam",
+        "url": "https://gtd.fandom.com/wiki/Rosebeam",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "5000",
+            "Placement Limit": "3",
+            "DPS": "240 ⟶ 4250",
+            "Damage": "80 ⟶ 425 x1 ⟷ x5 Burst",
+            "Range": "22 ⟶ 47",
+            "Attack Speed": "1 ⟶ 0.3",
+            "Ability": "Can stun enemies. For the Mechanic of Rosebeam check here ."
+        }
+    },
+    {
+        "name": "Carrotastrophe",
+        "url": "https://gtd.fandom.com/wiki/Carrotastrophe",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2500",
+            "Placement Limit": "5",
+            "DPS": "90 ⟶ 2600",
+            "Damage": "50 ⟶ 700 1x ⟷ 7x",
+            "Range": "18 ⟶ 42 14",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Timekeeper",
+        "url": "https://gtd.fandom.com/wiki/Timekeeper",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4500",
+            "Placement Limit": "1 (Per Game)",
+            "Range": "18",
+            "Ability": "In Normal Modes, used when your Base Health is 0. In Survival Mode , used when everyone has been KOed. Increases Speed of attack by 20% for Units within Range. Ability to stop time, pausing Enemy progress. Duration: 4 seconds Cost: 3000 , increases by 3000 for every use. Cooldown: 1 minute"
+        }
+    },
+    {
+        "name": "Earth Dragon",
+        "url": "https://gtd.fandom.com/wiki/Earth_Dragon",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "6000",
+            "Placement Limit": "3",
+            "DPS": "750 → 4350",
+            "Damage": "200 → 1400 x1 → x5 Burst 50 → 50",
+            "Range": "Infinite",
+            "Attack Speed": "1 → 1"
+        }
+    },
+    {
+        "name": "Egg Plantinum",
+        "url": "https://gtd.fandom.com/wiki/Egg_Plantinum",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "9250",
+            "Placement Limit": "1",
+            "DPS": "400 ⟶ 12150",
+            "Damage": "80 ⟶ 1350 x1 ⟷ x6 Burst",
+            "Range": "15 ⟶ 41",
+            "Attack Speed": "1.2 ⟶ 0.67",
+            "Ability": "Follows you around, giving dynamic Range. Ability to stop time, pausing Enemy progress. Duration: 2 seconds Cost: 2500 base, increases by 2500 every use. Cooldown: 1 minute"
+        }
+    },
+    {
+        "name": "Astral Blossom",
+        "url": "https://gtd.fandom.com/wiki/Astral_Blossom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "6250",
+            "Placement Limit": "3",
+            "DPS": "215 ⟶ 4400",
+            "Damage": "25 ⟶ 110 x1 ⟷ x6 Burst",
+            "Range": "29 ⟶ 49",
+            "Attack Speed": "0.7 ⟶ 0.15",
+            "Ability": "Has 1% chance of debuffing enemies so that they take 5% more damage ."
+        }
+    },
+    {
+        "name": "Ooga Booga",
+        "url": "https://gtd.fandom.com/wiki/Ooga_Booga",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "5500",
+            "Placement Limit": "4",
+            "DPS": "198 ⟶ 2250",
+            "Damage": "270 ⟶ 1125 x1 ⟷ x3 Burst 10 20% ⟶ 20%",
+            "Range": "15 ⟶ 38",
+            "Attack Speed": "2.73 ⟶ 1"
+        }
+    },
+    {
+        "name": "Budstrike",
+        "url": "https://gtd.fandom.com/wiki/Budstrike",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4000",
+            "Placement Limit": "4",
+            "DPS": "225 ⟶ 2475",
+            "Damage": "150 ⟶ 825 x1 ⟷ x5 Burst",
+            "Range": "15 ⟶ 35 6",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Strongest Punch Potato",
+        "url": "https://gtd.fandom.com/wiki/Strongest_Punch_Potato",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4500",
+            "Placement Limit": "3",
+            "DPS": "180 ⟶ 4575",
+            "Damage": "48 ⟶ 1220 x1  ⟷ x12 Burst 8",
+            "Range": "13 ⟶ 40",
+            "Attack Speed": "1 ⟶ 1",
+            "Ability": "Has a 1% chance every attack to deal x100 Damage to Enemies under 20% Health."
+        }
+    },
+    {
+        "name": "Infinity Petal",
+        "url": "https://gtd.fandom.com/wiki/Infinity_Petal",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4500",
+            "Placement Limit": "3",
+            "DPS": "130 ⟶ 4000",
+            "Damage": "65 ⟶ 1000",
+            "Range": "15 ⟶ 38 / ∞",
+            "Attack Speed": "0.5 ⟶ 0.25",
+            "Ability": "Infinite Range Ability for a limited time. Duration: 15 seconds Cost: 5000 Cooldown: 2 minutes."
+        }
+    },
+    {
+        "name": "Stickpetal",
+        "url": "https://gtd.fandom.com/wiki/Stickpetal",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4000",
+            "Placement Limit": "3",
+            "DPS": "165 ⟶ 3282",
+            "Damage": "165 ⟶ 1875 10% ⟶ 50%",
+            "Range": "17 ⟶ 30",
+            "Attack Speed": "1 ⟶ 0.57"
+        }
+    },
+    {
+        "name": "Gnomatic Saw",
+        "url": "https://gtd.fandom.com/wiki/Gnomatic_Saw",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2850",
+            "Placement Limit": "4",
+            "DPS": "154 ⟶ 3500",
+            "Damage": "50 ⟶ 350 x1 ⟷ x4 Burst",
+            "Range": "22 ⟶ 37",
+            "Attack Speed": "1.3 ⟶ 0.4",
+            "Ability": "Ability to increase attacks per minute (APM) by 100% for 8 seconds, this Unit will be unable to attack for 4 seconds after the Ability is used."
+        }
+    },
+    {
+        "name": "Frostshade",
+        "url": "https://gtd.fandom.com/wiki/Frostshade",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3250",
+            "Placement Limit": "3",
+            "DPS": "155 ⟶ 4200",
+            "Damage": "185 ⟶ 2400 6 5% ⟶ 20%",
+            "Range": "15 ⟶ 35",
+            "Attack Speed": "1.2 ⟶ 0.57"
+        }
+    },
+    {
+        "name": "Solarian Bloom",
+        "url": "https://gtd.fandom.com/wiki/Solarian_Bloom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3000",
+            "Placement Limit": "3",
+            "DPS": "176 ⟶ 3990",
+            "Damage": "8 ⟶ 30 x1 ⟷ x4 Burst 80 ⟶ 600",
+            "Range": "20 ⟶ 30",
+            "Attack Speed": "2 ⟶ 0.63",
+            "Ability": "Solar Flare 'nuke' ability to cause instant destruction. Cost: 25000 Damage: 50000 + Burn Cooldown: 1 minute"
+        }
+    },
+    {
+        "name": "Beamstalk",
+        "url": "https://gtd.fandom.com/wiki/Beamstalk",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2250",
+            "Placement Limit": "4",
+            "DPS": "150 ⟶ 3200",
+            "Damage": "60 ⟶ 640",
+            "Range": "19 ⟶ 34",
+            "Attack Speed": "0.4 ⟶ 0.2",
+            "Ability": "Ability to increase Range by 100% and attacks per minute (APM) by 20%, both for 15 seconds."
+        }
+    },
+    {
+        "name": "Voltshade",
+        "url": "https://gtd.fandom.com/wiki/Voltshade",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2250",
+            "Placement Limit": "4",
+            "DPS": "83 → 2072",
+            "Damage": "110 → 1100 1x - 2x Burst",
+            "Range": "28 → 47",
+            "Attack Speed": "2 → 0.8",
+            "Ability": "Every second attack it will attack all enemies in its range."
+        }
+    },
+    {
+        "name": "Elemental Bloom",
+        "url": "https://gtd.fandom.com/wiki/Elemental_Bloom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2250",
+            "Placement Limit": "4",
+            "DPS": "125 ⟶ 1917",
+            "Damage": "100 ⟶ 900 150 ⟶ 1400 50 ⟶ 50 10% ⟶ 30%",
+            "Range": "20 ⟶ 35",
+            "Attack Speed": "2 ⟶ 1.2",
+            "Ability": "Attacks with each head in turn, applying a certain debuff — Poisoning , Slowness and Burning . At level 4 attacks with all heads at once, applying all debuffs."
+        }
+    },
+    {
+        "name": "Echosonic Bloom",
+        "url": "https://gtd.fandom.com/wiki/Echosonic_Bloom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2000",
+            "Placement Limit": "4",
+            "DPS": "29 ⟶ 1380",
+            "Damage": "12 ⟶ 345 x1 ⟷ x6 Burst",
+            "Range": "11 ⟶ 29",
+            "Attack Speed": "2.5 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Rainbow Tomato",
+        "url": "https://gtd.fandom.com/wiki/Rainbow_Tomato",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "100",
+            "Placement Limit": "10",
+            "DPS": "6 ⟶ 67",
+            "Damage": "8 ⟶ 80",
+            "Range": "13 ⟶ 24",
+            "Attack Speed": "1.58 ⟶ 1.2"
+        }
+    },
+    {
+        "name": "Rainbow Dandelion",
+        "url": "https://gtd.fandom.com/wiki/Rainbow_Dandelion",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "700",
+            "Placement Limit": "10",
+            "DPS": "15 ⟶ 360",
+            "Damage": "5 ⟶ 40 1x ⟷ 9x Burst",
+            "Range": "12 ⟶ 33",
+            "Attack Speed": "3 ⟶ 1"
+        }
+    },
+    {
+        "name": "Boomberries",
+        "url": "https://gtd.fandom.com/wiki/Boomberries",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "800",
+            "Placement Limit": "20",
+            "DPS": "16 ⟶ 104",
+            "Damage": "12 ⟶ 39 1x ⟷ 4x 8",
+            "Range": "9 ⟶ 21",
+            "Attack Speed": "3 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Rainbow Baby Carrots",
+        "url": "https://gtd.fandom.com/wiki/Rainbow_Baby_Carrots",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "500",
+            "Placement Limit": "N/A",
+            "DPS": "12 ⟶ 128",
+            "Damage": "23 ⟶ 128",
+            "Range": "14 ⟶ 24",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Rainbow Bamboo",
+        "url": "https://gtd.fandom.com/wiki/Rainbow_Bamboo",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "300",
+            "Placement Limit": "20",
+            "DPS": "15 ⟶ 225",
+            "Damage": "17 ⟶ 105",
+            "Range": "11 ⟶ 20",
+            "Attack Speed": "1.2 ⟶ 0.47"
+        }
+    },
+    {
+        "name": "Rainbow Pumpkin",
+        "url": "https://gtd.fandom.com/wiki/Rainbow_Pumpkin",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "300",
+            "Placement Limit": "N/A",
+            "DPS": "12 → 251",
+            "Damage": "15 → 85",
+            "Range": "9 → 17",
+            "Attack Speed": "1.3 → 0.58"
+        }
+    },
+    {
+        "name": "Rainbow Pumpkrawler",
+        "url": "https://gtd.fandom.com/wiki/Rainbow_Pumpkrawler",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "475",
+            "Placement Limit": "6",
+            "DPS": "10 → 250",
+            "Damage": "10 → 125",
+            "Range": "13 → 25",
+            "Attack Speed": "2 → 1"
+        }
+    },
+    {
+        "name": "Rainbow Scarecrow",
+        "url": "https://gtd.fandom.com/wiki/Rainbow_Scarecrow",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "650",
+            "Placement Limit": "20",
+            "DPS": "10 → 96",
+            "Damage": "13 → 55 5% → 25%",
+            "Range": "9 → 17",
+            "Attack Speed": "1.3 → 0.58"
+        }
+    },
+    {
+        "name": "Rainbow Chili Pepper",
+        "url": "https://gtd.fandom.com/wiki/Rainbow_Chili_Pepper",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "600",
+            "Damage": "400 → 2250",
+            "Range": "17 → 40"
+        }
+    },
+    {
+        "name": "Fisherman",
+        "url": "https://gtd.fandom.com/wiki/Fisherman",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "800",
+            "Placement Limit": "5",
+            "DPS": "5 ⟶ 72",
+            "Damage": "15 ⟶ 120",
+            "Range": "12 ⟶ 26",
+            "Attack Speed": "3 ⟶ 1.71",
+            "Ability": "Flings enemies backwards."
+        }
+    },
+    {
+        "name": "Galactic Shroom",
+        "url": "https://gtd.fandom.com/wiki/Galactic_Shroom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1000",
+            "Placement Limit": "4",
+            "DPS": "50 ⟶ 667",
+            "Damage": "50 ⟶ 200",
+            "Range": "12 ⟶ 20",
+            "Attack Speed": "1 ⟶ 0.3"
+        }
+    },
+    {
+        "name": "Nightshade",
+        "url": "https://gtd.fandom.com/wiki/Nightshade",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1200",
+            "Placement Limit": "3",
+            "DPS": "45 → 975",
+            "Damage": "15 → 65 x1 → x3 Burst 10 → 30",
+            "Range": "22 → 37",
+            "Attack Speed": "1 → 0.2"
+        }
+    },
+    {
+        "name": "Chilly Pepper",
+        "url": "https://gtd.fandom.com/wiki/Chilly_Pepper",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1250",
+            "Placement Limit": "∞",
+            "Damage": "450 ⟶ 2000 20%",
+            "Range": "12 ⟶ 28"
+        }
+    },
+    {
+        "name": "Black Clover",
+        "url": "https://gtd.fandom.com/wiki/Black_Clover",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1500",
+            "Placement Limit": "2",
+            "Range": "10 ⟶ 25",
+            "Ability": "Permanently increases damage for all other towers within range up to 35% ."
+        }
+    },
+    {
+        "name": "Double Sunflower",
+        "url": "https://gtd.fandom.com/wiki/Double_Sunflower",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1600",
+            "Placement Limit": "4",
+            "DPS": "23 ⟶ 880",
+            "Damage": "20 ⟶ 400 x1 ⟷ x7 Burst",
+            "Range": "15 ⟶ 31",
+            "Attack Speed": "3.53 ⟶ 1.82"
+        }
+    },
+    {
+        "name": "Gnomeblitz",
+        "url": "https://gtd.fandom.com/wiki/Gnomeblitz",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1750",
+            "Placement Limit": "3",
+            "DPS": "60 ⟶ 434",
+            "Damage": "90 ⟶ 650 6",
+            "Range": "∞",
+            "Attack Speed": "1.5 ⟶ 1.5"
+        }
+    },
+    {
+        "name": "Auranji",
+        "url": "https://gtd.fandom.com/wiki/Auranji",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1800",
+            "Placement Limit": "4",
+            "DPS": "55 ⟶ 2000",
+            "Damage": "110 ⟶ 1000 5% ⟶ 40%",
+            "Range": "19 ⟶ 42",
+            "Attack Speed": "2 ⟶ 0.5"
+        }
+    },
+    {
+        "name": "Bee Stinger",
+        "url": "https://gtd.fandom.com/wiki/Bee_Stinger",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "2500",
+            "Placement Limit": "3",
+            "DPS": "175 ⟶ 3334",
+            "Damage": "175 ⟶ 1000",
+            "Range": "24 ⟶ 38",
+            "Attack Speed": "1 ⟶ 0.3",
+            "Ability": "Each attack has a 10% chance to mark the enemy, increasing damage they take from all units by 15% for 3 seconds."
+        }
+    },
+    {
+        "name": "Frankensprout",
+        "url": "https://gtd.fandom.com/wiki/Frankensprout",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3250",
+            "Placement Limit": "3",
+            "DPS": "190 ⟶ 4000",
+            "Damage": "475 ⟶ 4800 10",
+            "Range": "29 ⟶ 45",
+            "Attack Speed": "2.5 ⟶ 1.2"
+        }
+    },
+    {
+        "name": "Teslaflora",
+        "url": "https://gtd.fandom.com/wiki/Teslaflora",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4000",
+            "Placement Limit": "2",
+            "Sound Attack": "https://gtd.fandom.com/wiki/File:Electric_BeetrootSound.mp3",
+            "DPS": "150 → 5000",
+            "Damage": "300 → 5000",
+            "Range": "18 → 38",
+            "Attack Speed": "2 → 1"
+        }
+    },
+    {
+        "name": "Bloomnova",
+        "url": "https://gtd.fandom.com/wiki/Bloomnova",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4250",
+            "Placement Limit": "4",
+            "DPS": "250 ⟶ 3500",
+            "Damage": "500 ⟶ 3500 10",
+            "Range": "15 ⟶ 35",
+            "Attack Speed": "2 ⟶ 1"
+        }
+    },
+    {
+        "name": "Inferno Bloom",
+        "url": "https://gtd.fandom.com/wiki/Inferno_Bloom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4500",
+            "Placement Limit": "3",
+            "DPS": "128 → 4800 x1 - x2 Burst",
+            "Damage": "8 → 80 10 → 140",
+            "Range": "14 → 41",
+            "Attack Speed": "0.75 → 0.4",
+            "Ability": "Damage increases 10% per second up to a maximum of x1.5 Damage. If Inactive, Damage Streak restarts."
+        }
+    },
+    {
+        "name": "Floral Overseer",
+        "url": "https://gtd.fandom.com/wiki/Floral_Overseer",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "6600",
+            "Placement Limit": "3",
+            "DPS": "334 ⟶ 4792",
+            "Damage": "100 ⟶ 575 x1 ⟷ x5 Burst",
+            "Range": "26 ⟶ 43",
+            "Attack Speed": "1.5 ⟶ 0.6"
+        }
+    },
+    {
+        "name": "Nightspire",
+        "url": "https://gtd.fandom.com/wiki/Nightspire",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4500",
+            "Placement Limit": "2",
+            "DPS": "150 -> 5000",
+            "Damage": "75 -> 625",
+            "Range": "18 -> 41",
+            "Attack Speed": "2 -> 0.50",
+            "Ability": "Summons bats that do 625 damage per hit 7 times before returning to Nightspire"
+        }
+    },
+    {
+        "name": "Aethervine",
+        "url": "https://gtd.fandom.com/wiki/Aethervine",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "7800",
+            "Placement Limit": "2",
+            "DPS": "450 → 7350",
+            "Damage": "135 → 735",
+            "Range": "25 → 43",
+            "Attack Speed": "0.3 → 0.1",
+            "Ability": "25% more Damage to Enemies under 25% Health."
+        }
+    },
+    {
+        "name": "Corrupted Stem",
+        "url": "https://gtd.fandom.com/wiki/Corrupted_Stem",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "8666",
+            "Placement Limit": "2",
+            "DPS": "463 -> 7650",
+            "Damage": "275 -> 2550",
+            "Range": "25 -> 43 25 -> 43",
+            "Attack Speed": "1.82 -> 1"
+        }
+    },
+    {
+        "name": "Multisawflower",
+        "url": "https://gtd.fandom.com/wiki/Multisawflower",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "5150",
+            "Placement Limit": "3",
+            "DPS": "313 → 5150",
+            "Damage": "70 → 515 x1 ⟷ x4 Burst",
+            "Range": "19 → 32",
+            "Attack Speed": "0.9 → 0.4"
+        }
+    },
+    {
+        "name": "Watering Can",
+        "url": "https://gtd.fandom.com/wiki/Watering_Can",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4000",
+            "Placement Limit": "2",
+            "Range": "Unlimited Range",
+            "Attack Speed": "3.00 ⟶ 1.00",
+            "Ability": "Unlimited Range, 'waters' other Units to increase their Speed of attack. Does not target trap units."
+        }
+    },
+    {
+        "name": "Maze Creeper",
+        "url": "https://gtd.fandom.com/wiki/Maze_Creeper",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2000",
+            "Placement Limit": "2",
+            "DPS": "150 ⟶ 2625",
+            "Damage": "50 ⟶ 350 1x ⟷ 3x Burst",
+            "Range": "18 ⟶ 33",
+            "Attack Speed": "1 ⟶ 0.4",
+            "Ability": "Ability to place Maze Walls on the Track, causing Damage to Enemies. Cost: 500 Cooldown: 15 seconds"
+        }
+    },
+    {
+        "name": "Saw O'Lantern",
+        "url": "https://gtd.fandom.com/wiki/Saw_O%27Lantern",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1000",
+            "Placement Limit": "4",
+            "DPS": "100 ⟶ 1000",
+            "Damage": "25 ⟶ 125 1x ⟷ 4x Burst",
+            "Range": "17 ⟶ 30",
+            "Attack Speed": "1 ⟶ 0.5"
+        }
+    },
+    {
+        "name": "Octoshroom",
+        "url": "https://gtd.fandom.com/wiki/Octoshroom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2500",
+            "Placement Limit": "4",
+            "DPS": "25 → 2000",
+            "Damage": "50 → 2000",
+            "Range": "20 → 20 20 → 20",
+            "Attack Speed": "2 → 1",
+            "Ability": "Fires 8 Bombs in 8 different directions with huge AOE Damage when they explode."
+        }
+    },
+    {
+        "name": "Ion Iris",
+        "url": "https://gtd.fandom.com/wiki/Ion_Iris",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4000",
+            "Placement Limit": "1",
+            "DPS": "151 → 14700",
+            "Damage": "30 → 630 x1 ⟷ x5 Burst",
+            "Range": "20 → 41",
+            "Attack Speed": "0.7 → 0.15"
+        }
+    },
+    {
+        "name": "Banana Peel",
+        "url": "https://gtd.fandom.com/wiki/Banana_Peel",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "900",
+            "Placement Limit": "3",
+            "Damage": "250 → 2000",
+            "Range": "6",
+            "Attack Speed": "0.5 → 0.5"
+        }
+    },
+    {
+        "name": "Diamond Nightshade",
+        "url": "https://gtd.fandom.com/wiki/Diamond_Nightshade",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1200",
+            "Placement Limit": "3",
+            "DPS": "54 → 1215",
+            "Damage": "15 → 81 x1 → x3 Burst 10 → 30",
+            "Range": "22 → 37",
+            "Attack Speed": "1 → 0.2"
+        }
+    },
+    {
+        "name": "Masters Banana Peel",
+        "url": "https://gtd.fandom.com/wiki/Masters_Banana_Peel",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "900",
+            "Placement Limit": "3",
+            "Damage": "375 → 2500",
+            "Range": "6",
+            "Attack Speed": "0.5 → 0.5"
+        }
+    },
+    {
+        "name": "Champions Bee Stinger",
+        "url": "https://gtd.fandom.com/wiki/Champions_Bee_Stinger",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "2500",
+            "Placement Limit": "3",
+            "DPS": "218 ⟶ 4167",
+            "Damage": "218 ⟶ 1250",
+            "Range": "24 ⟶ 38",
+            "Attack Speed": "1 ⟶ 0.3",
+            "Ability": "Each attack has a 10% chance to mark the enemy, increasing damage they take from all units by 20% for 3 seconds."
+        }
+    },
+    {
+        "name": "Candycane Bloom",
+        "url": "https://gtd.fandom.com/wiki/Candycane_Bloom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "8500",
+            "Placement Limit": "3",
+            "DPS": "222→ 5000",
+            "Damage": "333 → 2500",
+            "Range": "25→ 45",
+            "Attack Speed": "1.5 → 0.5",
+            "Ability": "Ability to place Candy Cane Walls on the Track, causing Damage to Enemies. Cost: 50000 Cooldown: 30 seconds"
+        }
+    },
+    {
+        "name": "Frost Golem",
+        "url": "https://gtd.fandom.com/wiki/Frost_Golem",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "7000",
+            "Placement Limit": "3",
+            "DPS": "334 → 4333 30% ⟶ 30%",
+            "Damage": "1000 → 8666 10",
+            "Range": "20 → 40",
+            "Attack Speed": "3 → 2"
+        }
+    },
+    {
+        "name": "Plant in the Box",
+        "url": "https://gtd.fandom.com/wiki/Plant_in_the_Box",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3750",
+            "Placement Limit": "3",
+            "DPS": "157  ⟶  5239",
+            "Damage": "10  ⟶  250",
+            "Range": "15  ⟶ 40",
+            "Attack Speed": "1.5 ⟶ 1"
+        }
+    },
+    {
+        "name": "Ice Dragon",
+        "url": "https://gtd.fandom.com/wiki/Ice_Dragon",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "5000",
+            "Placement Limit": "4",
+            "Damage": "1600 ⟶ 18400 10% ⟶ 50% 7",
+            "Ability": "Patrols the Track, with AOE Damage and freezing"
+        }
+    },
+    {
+        "name": "Regeneration Flower",
+        "url": "https://gtd.fandom.com/wiki/Regeneration_Flower",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "500",
+            "Placement Limit": "2",
+            "DPS": "40 → 8750",
+            "Damage": "12 → 500",
+            "Range": "24 → 42",
+            "Attack Speed": "0.3 → 0.09",
+            "Ability": "Regenerates over time, increasing Damage. Maximum Regeneration x1.5 Damage."
+        }
+    },
+    {
+        "name": "Toxibud",
+        "url": "https://gtd.fandom.com/wiki/Toxibud",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4500",
+            "Placement Limit": "4",
+            "DPS": "240 → 3780",
+            "Damage": "40 → 185",
+            "Range": "15 → 41",
+            "Attack Speed": "0.5 → 0.25"
+        }
+    },
+    {
+        "name": "Toxic Mushroom",
+        "url": "https://gtd.fandom.com/wiki/Toxic_Mushroom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3875",
+            "Placement Limit": "4",
+            "DPS": "138 →2790",
+            "Damage": "165 →1625",
+            "Range": "22 →43 8",
+            "Attack Speed": "1.2 →0.58",
+            "Ability": "Leaves up to 4 Toxic Puddles on the Track which each deal 300 DPS to Enemies who touch this."
+        }
+    },
+    {
+        "name": "Lava Flower",
+        "url": "https://gtd.fandom.com/wiki/Lava_Flower",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4475",
+            "Placement Limit": "2",
+            "DPS": "210→6875",
+            "Damage": "195→3525 30→150 8",
+            "Range": "23→37",
+            "Attack Speed": "1.5→0.6"
+        }
+    },
+    {
+        "name": "Shufflecap",
+        "url": "https://gtd.fandom.com/wiki/Shufflecap",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "2750",
+            "Placement Limit": "1",
+            "Range": "22→45",
+            "Ability": "Ability to draw RNG Cards every 60 seconds, giving all Units within Range a 45 second RNG Speed, Cash, Damage or Range multiplier."
+        }
+    },
+    {
+        "name": "Transfiguration Flower",
+        "url": "https://gtd.fandom.com/wiki/Transfiguration_Flower",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4750",
+            "Placement Limit": "3",
+            "DPS": "233→4834",
+            "Damage": "310→2900",
+            "Range": "22→45",
+            "Attack Speed": "1.33→0.6",
+            "Ability": "Has a 5% chance per attack of transforming Enemies into a weaker Enemy. Ability with a 5% chance per Enemy within 20 Range to transform them into a weaker Enemy."
+        }
+    },
+    {
+        "name": "Festive Glowthorn",
+        "url": "https://gtd.fandom.com/wiki/Festive_Glowthorn",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "300",
+            "Placement Limit": "4",
+            "DPS": "10 →3500",
+            "Damage": "20 →3500",
+            "Range": "10 →40",
+            "Attack Speed": "2 →1"
+        }
+    },
+    {
+        "name": "Butterfly Hut",
+        "url": "https://gtd.fandom.com/wiki/Butterfly_Hut",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1150",
+            "Placement Limit": "2",
+            "Range": "n/a",
+            "Ability": "Unlimited Range. Summons Butterflies which boost other Units to increase their Range."
+        }
+    },
+    {
+        "name": "Dark Shardpetal",
+        "url": "https://gtd.fandom.com/wiki/Dark_Shardpetal",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4000",
+            "Placement Limit": "5",
+            "DPS": "300→3200",
+            "Damage": "150 → 800 x1 → x3 Burst",
+            "Range": "20 → 40",
+            "Attack Speed": "1 → 0.5",
+            "Ability": "Each attack has a 10% chance to mark the Enemy. increasing Damage to Enemy from all Units by 15% for 3 seconds."
+        }
+    },
+    {
+        "name": "Loveburst Bloom",
+        "url": "https://gtd.fandom.com/wiki/Loveburst_Bloom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4750",
+            "Placement Limit": "1",
+            "Range": "15→30",
+            "Ability": "Stores Damage dealt by Units. Ability to activate the release of this stored Damage, splitting Damage evenly between all Enemies in Range. This Unit cannot be buffed by Damage boosting Units e.g. Lucky clover"
+        }
+    },
+    {
+        "name": "Charm Blossom",
+        "url": "https://gtd.fandom.com/wiki/Charm_Blossom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3500",
+            "Placement Limit": "2",
+            "DPS": "200→7250",
+            "Damage": "80→1450",
+            "Range": "26→42",
+            "Attack Speed": "0.4→0.2",
+            "Ability": "Has a 1% chance of hypnotising Enemies to turn the other way and cause Damage to other Enemies."
+        }
+    },
+    {
+        "name": "Festive Bulbpetal",
+        "url": "https://gtd.fandom.com/wiki/Festive_Bulbpetal",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "250",
+            "Placement Limit": "4",
+            "DPS": "10 → 140",
+            "Damage": "10 → 70",
+            "Range": "10 → 30",
+            "Attack Speed": "1 → 0.5",
+            "Ability": "Ability to shock all enemies within range with electricity causing x2 damage."
+        }
+    },
+    {
+        "name": "Star Fruit",
+        "url": "https://gtd.fandom.com/wiki/Star_Fruit",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "500",
+            "Placement Limit": "5",
+            "DPS": "16 → 2800",
+            "Damage": "26 → 5600",
+            "Range": "20 → 45",
+            "Attack Speed": "1.71 → 2"
+        }
+    },
+    {
+        "name": "Corn Commander",
+        "url": "https://gtd.fandom.com/wiki/Corn_Commander",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "1500",
+            "Placement Limit": "2",
+            "DPS": "35→4950",
+            "Damage": "35→990",
+            "Range": "20→40",
+            "Attack Speed": "1.0→0.2",
+            "Ability": "Increases Damage, attacks per minute (APM) and Range of all Corn Units, Corn, Juggercorn and Wrecking Cornball."
+        }
+    },
+    {
+        "name": "Gnomebang",
+        "url": "https://gtd.fandom.com/wiki/Gnomebang",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1500",
+            "Placement Limit": "2",
+            "Damage": "3000 ⟶ 40000 500 ⟶ 6000",
+            "Range": "30 12",
+            "Ability": "Ability to send a Rocket with high Damage and AoE, Ability destroys Gnomebang Unit. Rides down the Track. Firework Rocket sets Fire Damage to Enemies. Explosion cost: 20000"
+        }
+    },
+    {
+        "name": "Festive Garden Warbell",
+        "url": "https://gtd.fandom.com/wiki/Festive_Garden_Warbell",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "1600",
+            "Placement Limit": "1",
+            "DPS": "10 ⟶ 100",
+            "Damage": "50 ⟶ 400",
+            "Range": "19 → 32 19 → 32",
+            "Attack Speed": "5 → 4",
+            "Ability": "Rings the bell to provide damage boost to units and stun enemies."
+        }
+    },
+    {
+        "name": "Shockshroom",
+        "url": "https://gtd.fandom.com/wiki/Shockshroom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "2250",
+            "Placement Limit": "2",
+            "DPS": "25→3000",
+            "Damage": "50→3000",
+            "Range": "10→27",
+            "Attack Speed": "2→1",
+            "Ability": "Stuns Enemies."
+        }
+    },
+    {
+        "name": "Dream Petal",
+        "url": "https://gtd.fandom.com/wiki/Dream_Petal",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4000",
+            "Placement Limit": "4",
+            "DPS": "167 ⟶ 7000",
+            "Damage": "100 ⟶ 1400",
+            "Range": "15 ⟶ 35",
+            "Attack Speed": "0.6 ⟶ 0.4",
+            "Ability": "Power increases and is stored when not attacking. More Power deals more Damage Power decreases when attacking."
+        }
+    },
+    {
+        "name": "Gemspire",
+        "url": "https://gtd.fandom.com/wiki/Gemspire",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "3750",
+            "Placement Limit": "4",
+            "DPS": "263→4125",
+            "Damage": "150→1500",
+            "Range": "25→37",
+            "Attack Speed": "1.71→1.09",
+            "Ability": "Fires up to 3 Beams concurrently, attacking up to 3 enemies at once, splitting the damage dealt between them. Has a chance to provide a Space Gem to ALL players when defeating an Enemy, with a maximum cap of 100 per game per player."
+        }
+    },
+    {
+        "name": "Blazewood",
+        "url": "https://gtd.fandom.com/wiki/Blazewood",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3275",
+            "Placement Limit": "3",
+            "DPS": "255 ⟶ 4489",
+            "Damage": "185 ⟶ 2165 30 ⟶ 100 10",
+            "Range": "19 ⟶ 39",
+            "Attack Speed": "1.2 ⟶ 0.57"
+        }
+    },
+    {
+        "name": "Cryolesia",
+        "url": "https://gtd.fandom.com/wiki/Cryolesia",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3250",
+            "Placement Limit": "4",
+            "Damage": "2000 → 10000 50% → 60%",
+            "Range": "8",
+            "Attack Speed": "5 → 1",
+            "Ability": "Latches onto enemies, dealing AOE damage and freezing them."
+        }
+    },
+    {
+        "name": "Splitjaw Flytrap",
+        "url": "https://gtd.fandom.com/wiki/Splitjaw_Flytrap",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "3750",
+            "Placement Limit": "3",
+            "DPS": "177 → 4500",
+            "Damage": "235 → 3000",
+            "Range": "22 → 42",
+            "Attack Speed": "2 → 1",
+            "Ability": "Leaves a toxic puddle on the track which deals 1,500 DPS to enemies who touch this."
+        }
+    },
+    {
+        "name": "Bloominator",
+        "url": "https://gtd.fandom.com/wiki/Bloominator",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "5200",
+            "Placement Limit": "2",
+            "DPS": "267 → 7334",
+            "Damage": "200 → 2200 (x1 - x7 Burst)",
+            "Range": "23 → 42",
+            "Attack Speed": "3 → 1.2"
+        }
+    },
+    {
+        "name": "Iris of Thorns",
+        "url": "https://gtd.fandom.com/wiki/Iris_of_Thorns",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4000",
+            "Placement Limit": "3",
+            "DPS": "414 ⟶5534",
+            "Damage": "400 ⟶ 1600 x1 ↔ x8 Burst",
+            "Range": "20 ⟶40",
+            "Attack Speed": "3 ⟶1",
+            "Ability": "Ability to place Vines the Track, Vines have AOE to Stun and Damage Enemies."
+        }
+    },
+    {
+        "name": "Shroom Overlord",
+        "url": "https://gtd.fandom.com/wiki/Shroom_Overlord",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "4250",
+            "Placement Limit": "2",
+            "DPS": "120→8150",
+            "Damage": "80→3875 1x ⟷ 3x Burst 10 ⟶ 50",
+            "Range": "24→44",
+            "Attack Speed": "2→1"
+        }
+    },
+    {
+        "name": "Rocketroot",
+        "url": "https://gtd.fandom.com/wiki/Rocketroot",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4500",
+            "Placement Limit": "2",
+            "DPS": "200 ⟶ 7500",
+            "Damage": "600 ⟶ 11250 x1 ⟶ x12 Burst 4 ⟶ 20",
+            "Range": "25 ⟶ 44",
+            "Attack Speed": "3 ⟶ 1.5",
+            "Ability": "Has a 1% chance per attack to deal 12x attacks to Enemies, AoE temporarily increasing from 4 to 20."
+        }
+    },
+    {
+        "name": "Iced Prismflower",
+        "url": "https://gtd.fandom.com/wiki/Iced_Prismflower",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "4875",
+            "Placement Limit": "3",
+            "DPS": "300 ⟶ 4217",
+            "Damage": "90 ⟶ 550",
+            "Range": "25 ⟶ 39",
+            "Attack Speed": "0.30 ⟶ 0.13",
+            "Ability": "Fires up to 5 Beams concurrently each targeting different Enemies."
+        }
+    },
+    {
+        "name": "Holographic Clover",
+        "url": "https://gtd.fandom.com/wiki/Holographic_Clover",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "Yes",
+            "Placement Cost": "5250",
+            "Placement Limit": "2",
+            "Damage": "1.35x→ 2x",
+            "Ability": "Attaches to another Unit, giving a permanent Damage increase up to x2 with maximum Upgrade. If the attached Unit is sold, the Holographic Clover will also be sold."
+        }
+    },
+    {
+        "name": "Obsidian Rose",
+        "url": "https://gtd.fandom.com/wiki/Obsidian_Rose",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "5250",
+            "Placement Limit": "4",
+            "DPS": "225 → 4000",
+            "Damage": "150 → 800 x1 ⟷ x2 Burst",
+            "Range": "22 → 38",
+            "Attack Speed": "1 → 0.3"
+        }
+    },
+    {
+        "name": "Astraflora",
+        "url": "https://gtd.fandom.com/wiki/Astraflora",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "7750",
+            "Placement Limit": "2",
+            "DPS": "461 →7050",
+            "Damage": "279 →2359",
+            "Range": "25 →45",
+            "Attack Speed": "1.82 → 1",
+            "Ability": "Fires a beam which also refracts onto additional Enemies behind with a range of 8."
+        }
+    },
+    {
+        "name": "Kaboom Shroom",
+        "url": "https://gtd.fandom.com/wiki/Kaboom_Shroom",
+        "stats": {
+            "Rarity": "Exclusive",
+            "Currently Obtainable?": "No",
+            "Placement Cost": "50000",
+            "Placement Limit": "Once every 30 seconds",
+            "Damage": "200000 →  200000",
+            "Range": "34 → 34",
+            "Ability": "After 3 seconds will explode with \"Nuke\" Damage Range"
+        }
+    }
+]
